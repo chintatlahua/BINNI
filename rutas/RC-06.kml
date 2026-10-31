@@ -1,0 +1,5028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta RC-06 Mondok: San Jerónimo Yahuiche - Huayapam</name>
+    <description/>
+    <Style id="icon-1532-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5000-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-5000-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-7CB342-5000-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-7CB342-5000-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-7CB342-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-7CB342-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-7CB342-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>IDA</name>
+      <Placemark>
+        <name>IDA</name>
+        <description><![CDATA[descripción: <br>NUM  PARADERO: <br>SENTIDO: <br>LATITUD: <br>LONGITUD: <br>NUM PARADA GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#line-0288D1-5000</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value/>
+          </Data>
+          <Data name="LATITUD">
+            <value/>
+          </Data>
+          <Data name="LONGITUD">
+            <value/>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.770398,17.111319,0
+            -96.770691,17.111584,0
+            -96.77098,17.111937,0
+            -96.771211,17.112009,0
+            -96.77156,17.111901,0
+            -96.770798,17.110456,0
+            -96.770208,17.109287,0
+            -96.769773,17.108538,0
+            -96.769451,17.108077,0
+            -96.769146,17.108169,0
+            -96.769033,17.108302,0
+            -96.769113,17.108574,0
+            -96.769387,17.109328,0
+            -96.769028,17.109871,0
+            -96.768736,17.110262,0
+            -96.768634,17.110037,0
+            -96.766521,17.110833,0
+            -96.766054,17.110988,0
+            -96.765719,17.110716,0
+            -96.765363,17.110424,0
+            -96.765109,17.110224,0
+            -96.76482,17.110051,0
+            -96.764653,17.109933,0
+            -96.764431,17.109733,0
+            -96.764229,17.109539,0
+            -96.764124,17.109388,0
+            -96.764057,17.109282,0
+            -96.763909,17.108931,0
+            -96.763555,17.108077,0
+            -96.763416,17.107722,0
+            -96.763358,17.107535,0
+            -96.76325,17.107245,0
+            -96.763079,17.106794,0
+            -96.762906,17.10636,0
+            -96.762584,17.105535,0
+            -96.762359,17.104979,0
+            -96.762059,17.104171,0
+            -96.761782,17.10351,0
+            -96.761541,17.10291,0
+            -96.76121,17.102067,0
+            -96.76119,17.102013,0
+            -96.761194,17.101958,0
+            -96.761217,17.101818,0
+            -96.761256,17.101661,0
+            -96.761259,17.101613,0
+            -96.761232,17.101562,0
+            -96.761169,17.101493,0
+            -96.761091,17.10143,0
+            -96.761032,17.101388,0
+            -96.760972,17.10131,0
+            -96.760914,17.101245,0
+            -96.760841,17.101134,0
+            -96.760766,17.100955,0
+            -96.760513,17.101004,0
+            -96.760154,17.101124,0
+            -96.759674,17.101273,0
+            -96.759218,17.101396,0
+            -96.758558,17.101584,0
+            -96.757314,17.10195,0
+            -96.756179,17.10226,0
+            -96.754408,17.102837,0
+            -96.753673,17.103073,0
+            -96.752713,17.103381,0
+            -96.752326,17.102489,0
+            -96.751919,17.101622,0
+            -96.751034,17.099535,0
+            -96.750846,17.099048,0
+            -96.750331,17.097838,0
+            -96.750181,17.097428,0
+            -96.750098,17.097247,0
+            -96.749942,17.097072,0
+            -96.749647,17.09638,0
+            -96.749448,17.095864,0
+            -96.749121,17.095049,0
+            -96.748815,17.094039,0
+            -96.748472,17.093565,0
+            -96.748311,17.093298,0
+            -96.748147,17.092878,0
+            -96.748082,17.09274,0
+            -96.748039,17.092555,0
+            -96.747975,17.092369,0
+            -96.747825,17.092103,0
+            -96.74776,17.091845,0
+            -96.747455,17.091199,0
+            -96.747255,17.090731,0
+            -96.746965,17.090049,0
+            -96.746692,17.08942,0
+            -96.746321,17.088634,0
+            -96.745973,17.087809,0
+            -96.745551,17.086896,0
+            -96.745272,17.086214,0
+            -96.744933,17.085425,0
+            -96.744772,17.085092,0
+            -96.74438,17.084092,0
+            -96.744143,17.083514,0
+            -96.74395,17.083104,0
+            -96.743786,17.082753,0
+            -96.743614,17.082446,0
+            -96.743636,17.082287,0
+            -96.743612,17.082212,0
+            -96.743596,17.081175,0
+            -96.743548,17.080444,0
+            -96.74351,17.080151,0
+            -96.743246,17.07962,0
+            -96.743058,17.079264,0
+            -96.742902,17.079019,0
+            -96.742843,17.078793,0
+            -96.742076,17.077511,0
+            -96.741443,17.076389,0
+            -96.741285,17.076102,0
+            -96.741248,17.075897,0
+            -96.741191,17.0758,0
+            -96.741134,17.07571,0
+            -96.740973,17.075551,0
+            -96.740833,17.075479,0
+            -96.740426,17.074844,0
+            -96.7402,17.074515,0
+            -96.7396,17.073731,0
+            -96.739391,17.073464,0
+            -96.739232,17.073254,0
+            -96.738755,17.072617,0
+            -96.738444,17.072196,0
+            -96.738326,17.071956,0
+            -96.738073,17.071438,0
+            -96.73782,17.070909,0
+            -96.737611,17.070338,0
+            -96.737436,17.069853,0
+            -96.737211,17.069319,0
+            -96.737047,17.069055,0
+            -96.736664,17.068427,0
+            -96.736328,17.06787,0
+            -96.73598,17.067318,0
+            -96.735827,17.067082,0
+            -96.735929,17.066866,0
+            -96.735982,17.066574,0
+            -96.736004,17.066394,0
+            -96.736208,17.066076,0
+            -96.736347,17.065615,0
+            -96.736371,17.065415,0
+            -96.73635,17.065258,0
+            -96.736291,17.064989,0
+            -96.736216,17.064748,0
+            -96.736101,17.064481,0
+            -96.7359,17.064063,0
+            -96.735726,17.063745,0
+            -96.735521,17.063386,0
+            -96.735302,17.063054,0
+            -96.73511,17.062753,0
+            -96.734932,17.062522,0
+            -96.734773,17.062309,0
+            -96.73462,17.062114,0
+            -96.734461,17.061901,0
+            -96.734395,17.061782,0
+            -96.734347,17.061704,0
+            -96.734231,17.061546,0
+            -96.734008,17.061229,0
+            -96.733938,17.06114,0
+            -96.733915,17.061098,0
+            -96.73363,17.061141,0
+            -96.73322,17.061193,0
+            -96.732546,17.061205,0
+            -96.731816,17.061199,0
+            -96.730872,17.061166,0
+            -96.730659,17.061167,0
+            -96.729776,17.061018,0
+            -96.72847,17.060762,0
+            -96.726882,17.060439,0
+            -96.726855,17.060557,0
+            -96.726653,17.06144,0
+            -96.72648,17.062298,0
+            -96.726293,17.063193,0
+            -96.725906,17.065106,0
+            -96.72574,17.06607,0
+            -96.725327,17.067916,0
+            -96.725053,17.069499,0
+            -96.724812,17.070679,0
+            -96.724413,17.072434,0
+            -96.723776,17.072367,0
+            -96.722923,17.072228,0
+            -96.722274,17.072115,0
+            -96.721861,17.072023,0
+            -96.720959,17.071824,0
+            -96.720589,17.071732,0
+            -96.720246,17.071742,0
+            -96.71981,17.071641,0
+            -96.719247,17.071554,0
+            -96.717981,17.071292,0
+            -96.717584,17.071036,0
+            -96.716361,17.070759,0
+            -96.715882,17.070616,0
+            -96.715346,17.070519,0
+            -96.713742,17.070334,0
+            -96.713527,17.070354,0
+            -96.713384,17.070367,0
+            -96.712678,17.070311,0
+            -96.712332,17.070288,0
+            -96.711895,17.07017,0
+            -96.71139,17.070145,0
+            -96.710714,17.070069,0
+            -96.709856,17.069991,0
+            -96.709421,17.06994,0
+            -96.708132,17.069844,0
+            -96.707772,17.069798,0
+            -96.707004,17.069749,0
+            -96.705695,17.069654,0
+            -96.704751,17.069562,0
+            -96.703342,17.069422,0
+            -96.701925,17.069294,0
+            -96.700085,17.069134,0
+            -96.69836,17.06899,0
+            -96.697572,17.068947,0
+            -96.696274,17.068818,0
+            -96.695738,17.068768,0
+            -96.694791,17.068691,0
+            -96.694261,17.068636,0
+            -96.69375,17.068617,0
+            -96.693013,17.068563,0
+            -96.692506,17.068544,0
+            -96.692001,17.068484,0
+            -96.691416,17.068424,0
+            -96.690667,17.068331,0
+            -96.689821,17.068258,0
+            -96.689354,17.068188,0
+            -96.688271,17.067863,0
+            -96.687548,17.067643,0
+            -96.685254,17.066964,0
+            -96.683838,17.06652,0
+            -96.683259,17.066346,0
+            -96.682191,17.066046,0
+            -96.679831,17.065363,0
+            -96.679423,17.065263,0
+            -96.679295,17.065409,0
+            -96.679201,17.06564,0
+            -96.679034,17.065796,0
+            -96.678567,17.06619,0
+            -96.677428,17.067128,0
+            -96.67678,17.06767,0
+            -96.676415,17.06796,0
+            -96.676013,17.068286,0
+            -96.675259,17.068893,0
+            -96.674379,17.069621,0
+            -96.673595,17.070252,0
+            -96.672786,17.070929,0
+            -96.672296,17.071341,0
+            -96.671599,17.071887,0
+            -96.670487,17.072815,0
+            -96.670096,17.073145,0
+            -96.668918,17.074092,0
+            -96.667904,17.074902,0
+            -96.66709,17.075606,0
+            -96.665791,17.076674,0
+            -96.664355,17.077844,0
+            -96.663062,17.07889,0
+            -96.661546,17.08017,0
+            -96.660274,17.081221,0
+            -96.658701,17.082499,0
+            -96.657913,17.083158,0
+            -96.6576,17.083402,0
+            -96.657255,17.083689,0
+            -96.657103,17.083822,0
+            -96.656883,17.084022,0
+            -96.656783,17.084127,0
+            -96.656695,17.084209,0
+            -96.65651,17.084404,0
+            -96.656427,17.084522,0
+            -96.656287,17.084706,0
+            -96.65619,17.084851,0
+            -96.656087,17.085014,0
+            -96.65591,17.085314,0
+            -96.65576,17.085627,0
+            -96.655621,17.086017,0
+            -96.655503,17.086524,0
+            -96.65533,17.087248,0
+            -96.655132,17.088073,0
+            -96.654869,17.089318,0
+            -96.654638,17.0902,0
+            -96.654676,17.090394,0
+            -96.654671,17.090494,0
+            -96.654502,17.091028,0
+            -96.654413,17.091337,0
+            -96.654373,17.091478,0
+            -96.654327,17.091716,0
+            -96.654306,17.091914,0
+            -96.65432,17.092221,0
+            -96.65439,17.092419,0
+            -96.654532,17.09278,0
+            -96.654652,17.093108,0
+            -96.654894,17.093736,0
+            -96.655213,17.094621,0
+            -96.655471,17.095353,0
+            -96.655754,17.096178,0
+            -96.656223,17.097463,0
+            -96.656333,17.097686,0
+            -96.656464,17.097896,0
+            -96.656625,17.098086,0
+            -96.656769,17.09824,0
+            -96.657101,17.098527,0
+            -96.657392,17.098768,0
+            -96.658053,17.099291,0
+            -96.658439,17.099634,0
+            -96.659094,17.100173,0
+            -96.659469,17.100485,0
+            -96.659888,17.100824,0
+            -96.660263,17.101132,0
+            -96.660488,17.101306,0
+            -96.660746,17.101506,0
+            -96.661368,17.101895,0
+            -96.661879,17.102074,0
+            -96.662117,17.102143,0
+            -96.662302,17.102184,0
+            -96.662547,17.102204,0
+            -96.662885,17.102232,0
+            -96.663014,17.102245,0
+            -96.663274,17.102287,0
+            -96.663719,17.102364,0
+            -96.664116,17.102417,0
+            -96.664468,17.102484,0
+            -96.665091,17.102581,0
+            -96.665162,17.102596,0
+            -96.66519,17.102544,0
+            -96.66508,17.102519,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base Yahuiche</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 1<br>SENTIDO: IDA<br>LATITUD: 17.1113191<br>LONGITUD: -96.7703979<br>NUM PARADA GESCAR: <br>unnamed (1): 1<br>NUM  PARADERO: 1.0<br>SENTIDO: IDA<br>LATITUD: 17.1113191<br>LONGITUD: -96.7703979<br>NUM PARADA GESCAR: <br>unnamed (1): 1.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 1
+SENTIDO: IDA
+LATITUD: 17.1113191
+LONGITUD: -96.7703979
+NUM PARADA GESCAR: 
+unnamed (1): 1</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>1.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1113191</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7703979</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>1.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.770398,17.111319,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidalgo</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 2<br>SENTIDO: IDA<br>LATITUD: 17.1091175<br>LONGITUD: -96.7701422<br>NUM PARADA GESCAR: NUEVA<br>unnamed (1): 2<br>NUM  PARADERO: 2.0<br>SENTIDO: IDA<br>LATITUD: 17.1091175<br>LONGITUD: -96.7701422<br>NUM PARADA GESCAR: NUEVA<br>unnamed (1): 2.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 2
+SENTIDO: IDA
+LATITUD: 17.1091175
+LONGITUD: -96.7701422
+NUM PARADA GESCAR: NUEVA
+unnamed (1): 2</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>2.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1091175</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7701422</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVA</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>2.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.770142,17.109118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belisario Dominguez</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 3<br>SENTIDO: IDA<br>LATITUD: 17.108515<br>LONGITUD: -96.7690583<br>NUM PARADA GESCAR: NUEVA<br>unnamed (1): 3<br>NUM  PARADERO: 3.0<br>SENTIDO: IDA<br>LATITUD: 17.108515<br>LONGITUD: -96.7690583<br>NUM PARADA GESCAR: NUEVA<br>unnamed (1): 3.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 3
+SENTIDO: IDA
+LATITUD: 17.108515
+LONGITUD: -96.7690583
+NUM PARADA GESCAR: NUEVA
+unnamed (1): 3</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>3.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.108515</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7690583</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVA</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>3.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.769058,17.108515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro de Salud</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 4<br>SENTIDO: IDA<br>LATITUD: 17.110041<br>LONGITUD: -96.768451<br>NUM PARADA GESCAR: <br>unnamed (1): 4<br>NUM  PARADERO: 4.0<br>SENTIDO: IDA<br>LATITUD: 17.110041<br>LONGITUD: -96.768451<br>NUM PARADA GESCAR: <br>unnamed (1): 4.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 4
+SENTIDO: IDA
+LATITUD: 17.110041
+LONGITUD: -96.768451
+NUM PARADA GESCAR: 
+unnamed (1): 4</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>4.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.110041</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.768451</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>4.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.768451,17.110041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base San Jacinto Amilpas</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 5<br>SENTIDO: IDA<br>LATITUD: 17.11098<br>LONGITUD: -96.76603<br>NUM PARADA GESCAR: <br>unnamed (1): 5<br>NUM  PARADERO: 5.0<br>SENTIDO: IDA<br>LATITUD: 17.11098<br>LONGITUD: -96.76603<br>NUM PARADA GESCAR: <br>unnamed (1): 5.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 5
+SENTIDO: IDA
+LATITUD: 17.11098
+LONGITUD: -96.76603
+NUM PARADA GESCAR: 
+unnamed (1): 5</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>5.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.11098</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.76603</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>5.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76603,17.11098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de Rio Atoyac</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 6<br>SENTIDO: IDA<br>LATITUD: 17.109114<br>LONGITUD: -96.764007<br>NUM PARADA GESCAR: <br>unnamed (1): 6<br>NUM  PARADERO: 6.0<br>SENTIDO: IDA<br>LATITUD: 17.109114<br>LONGITUD: -96.764007<br>NUM PARADA GESCAR: <br>unnamed (1): 6.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 6
+SENTIDO: IDA
+LATITUD: 17.109114
+LONGITUD: -96.764007
+NUM PARADA GESCAR: 
+unnamed (1): 6</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>6.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.109114</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.764007</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>6.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.764007,17.109114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unidad Deportiva San Jacinto</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 7<br>SENTIDO: IDA<br>LATITUD: 17.106704<br>LONGITUD: -96.763046<br>NUM PARADA GESCAR: <br>unnamed (1): 7<br>NUM  PARADERO: 7.0<br>SENTIDO: IDA<br>LATITUD: 17.106704<br>LONGITUD: -96.763046<br>NUM PARADA GESCAR: <br>unnamed (1): 7.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 7
+SENTIDO: IDA
+LATITUD: 17.106704
+LONGITUD: -96.763046
+NUM PARADA GESCAR: 
+unnamed (1): 7</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>7.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.106704</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.763046</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.763046,17.106704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leona Vicario</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 8<br>SENTIDO: IDA<br>LATITUD: 17.103705<br>LONGITUD: -96.761921<br>NUM PARADA GESCAR: <br>unnamed (1): 8<br>NUM  PARADERO: 8.0<br>SENTIDO: IDA<br>LATITUD: 17.103705<br>LONGITUD: -96.761921<br>NUM PARADA GESCAR: <br>unnamed (1): 8.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 8
+SENTIDO: IDA
+LATITUD: 17.103705
+LONGITUD: -96.761921
+NUM PARADA GESCAR: 
+unnamed (1): 8</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>8.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.103705</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.761921</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.761921,17.103705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Puente Peatonal San Jacinto Amilpas</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 9<br>SENTIDO: IDA<br>LATITUD: 17.101855<br>LONGITUD: -96.761176<br>NUM PARADA GESCAR: <br>unnamed (1): 9<br>NUM  PARADERO: 9.0<br>SENTIDO: IDA<br>LATITUD: 17.101855<br>LONGITUD: -96.761176<br>NUM PARADA GESCAR: <br>unnamed (1): 9.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 9
+SENTIDO: IDA
+LATITUD: 17.101855
+LONGITUD: -96.761176
+NUM PARADA GESCAR: 
+unnamed (1): 9</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>9.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.101855</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.761176</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>9.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.761176,17.101855,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gardenias</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 10<br>SENTIDO: IDA<br>LATITUD: 17.1013623<br>LONGITUD: -96.7592939<br>NUM PARADA GESCAR: <br>unnamed (1): 10<br>NUM  PARADERO: 10.0<br>SENTIDO: IDA<br>LATITUD: 17.1013623<br>LONGITUD: -96.7592939<br>NUM PARADA GESCAR: <br>unnamed (1): 10.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 10
+SENTIDO: IDA
+LATITUD: 17.1013623
+LONGITUD: -96.7592939
+NUM PARADA GESCAR: 
+unnamed (1): 10</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>10.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1013623</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7592939</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>10.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.759294,17.101362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jazmines</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 11<br>SENTIDO: IDA<br>LATITUD: 17.1018985<br>LONGITUD: -96.7574449<br>NUM PARADA GESCAR: <br>unnamed (1): 11<br>NUM  PARADERO: 11.0<br>SENTIDO: IDA<br>LATITUD: 17.1018985<br>LONGITUD: -96.7574449<br>NUM PARADA GESCAR: <br>unnamed (1): 11.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 11
+SENTIDO: IDA
+LATITUD: 17.1018985
+LONGITUD: -96.7574449
+NUM PARADA GESCAR: 
+unnamed (1): 11</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>11.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1018985</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7574449</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>11.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.757445,17.101898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamos</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 12<br>SENTIDO: IDA<br>LATITUD: 17.10281<br>LONGITUD: -96.7543<br>NUM PARADA GESCAR: <br>unnamed (1): 12<br>NUM  PARADERO: 12.0<br>SENTIDO: IDA<br>LATITUD: 17.10281<br>LONGITUD: -96.7543<br>NUM PARADA GESCAR: <br>unnamed (1): 12.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 12
+SENTIDO: IDA
+LATITUD: 17.10281
+LONGITUD: -96.7543
+NUM PARADA GESCAR: 
+unnamed (1): 12</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>12.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.10281</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7543</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>12.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.7543,17.10281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Col. del Maestro</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 13<br>SENTIDO: IDA<br>LATITUD: 17.101468<br>LONGITUD: -96.751853<br>NUM PARADA GESCAR: <br>unnamed (1): 13<br>NUM  PARADERO: 13.0<br>SENTIDO: IDA<br>LATITUD: 17.101468<br>LONGITUD: -96.751853<br>NUM PARADA GESCAR: <br>unnamed (1): 13.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 13
+SENTIDO: IDA
+LATITUD: 17.101468
+LONGITUD: -96.751853
+NUM PARADA GESCAR: 
+unnamed (1): 13</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>13.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.101468</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.751853</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>13.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.751853,17.101468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilia Violeta</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 14<br>SENTIDO: IDA<br>LATITUD: 17.099393<br>LONGITUD: -96.750992<br>NUM PARADA GESCAR: <br>unnamed (1): 14<br>NUM  PARADERO: 14.0<br>SENTIDO: IDA<br>LATITUD: 17.099393<br>LONGITUD: -96.750992<br>NUM PARADA GESCAR: <br>unnamed (1): 14.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 14
+SENTIDO: IDA
+LATITUD: 17.099393
+LONGITUD: -96.750992
+NUM PARADA GESCAR: 
+unnamed (1): 14</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>14.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.099393</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.750992</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>14.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.750992,17.099393,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilias</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 15<br>SENTIDO: IDA<br>LATITUD: 17.097731<br>LONGITUD: -96.75027<br>NUM PARADA GESCAR: <br>unnamed (1): 15<br>NUM  PARADERO: 15.0<br>SENTIDO: IDA<br>LATITUD: 17.097731<br>LONGITUD: -96.75027<br>NUM PARADA GESCAR: <br>unnamed (1): 15.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 15
+SENTIDO: IDA
+LATITUD: 17.097731
+LONGITUD: -96.75027
+NUM PARADA GESCAR: 
+unnamed (1): 15</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>15.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.097731</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.75027</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>15.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75027,17.097731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zonal Santa Rosa</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 16<br>SENTIDO: IDA<br>LATITUD: 17.093765<br>LONGITUD: -96.748579<br>NUM PARADA GESCAR: <br>unnamed (1): 16<br>NUM  PARADERO: 16.0<br>SENTIDO: IDA<br>LATITUD: 17.093765<br>LONGITUD: -96.748579<br>NUM PARADA GESCAR: <br>unnamed (1): 16.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 16
+SENTIDO: IDA
+LATITUD: 17.093765
+LONGITUD: -96.748579
+NUM PARADA GESCAR: 
+unnamed (1): 16</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>16.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.093765</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.748579</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>16.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.748579,17.093765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ex Hacienda Santa Rosa</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 17<br>SENTIDO: IDA<br>LATITUD: 17.090961<br>LONGITUD: -96.747374<br>NUM PARADA GESCAR: <br>unnamed (1): 17<br>NUM  PARADERO: 17.0<br>SENTIDO: IDA<br>LATITUD: 17.090961<br>LONGITUD: -96.747374<br>NUM PARADA GESCAR: <br>unnamed (1): 17.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 17
+SENTIDO: IDA
+LATITUD: 17.090961
+LONGITUD: -96.747374
+NUM PARADA GESCAR: 
+unnamed (1): 17</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>17.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.090961</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.747374</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>17.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.747374,17.090961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8 norte</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 18<br>SENTIDO: IDA<br>LATITUD: 17.087431<br>LONGITUD: -96.745805<br>NUM PARADA GESCAR: <br>unnamed (1): 18<br>NUM  PARADERO: 18.0<br>SENTIDO: IDA<br>LATITUD: 17.087431<br>LONGITUD: -96.745805<br>NUM PARADA GESCAR: <br>unnamed (1): 18.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 18
+SENTIDO: IDA
+LATITUD: 17.087431
+LONGITUD: -96.745805
+NUM PARADA GESCAR: 
+unnamed (1): 18</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>18.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.087431</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.745805</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>18.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.745805,17.087431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuauhtemoc</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 19<br>SENTIDO: IDA<br>LATITUD: 17.083003<br>LONGITUD: -96.743889<br>NUM PARADA GESCAR: <br>unnamed (1): 19<br>NUM  PARADERO: 19.0<br>SENTIDO: IDA<br>LATITUD: 17.083003<br>LONGITUD: -96.743889<br>NUM PARADA GESCAR: <br>unnamed (1): 19.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 19
+SENTIDO: IDA
+LATITUD: 17.083003
+LONGITUD: -96.743889
+NUM PARADA GESCAR: 
+unnamed (1): 19</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>19.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.083003</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.743889</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>19.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.743889,17.083003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tecnológico</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 20<br>SENTIDO: IDA<br>LATITUD: 17.079411<br>LONGITUD: -96.743154<br>NUM PARADA GESCAR: <br>unnamed (1): 20<br>NUM  PARADERO: 20.0<br>SENTIDO: IDA<br>LATITUD: 17.079411<br>LONGITUD: -96.743154<br>NUM PARADA GESCAR: <br>unnamed (1): 20.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 20
+SENTIDO: IDA
+LATITUD: 17.079411
+LONGITUD: -96.743154
+NUM PARADA GESCAR: 
+unnamed (1): 20</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>20.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.079411</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.743154</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>20.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.743154,17.079411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luis Enrique Herro</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 21<br>SENTIDO: IDA<br>LATITUD: 17.076001<br>LONGITUD: -96.741272<br>NUM PARADA GESCAR: <br>unnamed (1): 21<br>NUM  PARADERO: 21.0<br>SENTIDO: IDA<br>LATITUD: 17.076001<br>LONGITUD: -96.741272<br>NUM PARADA GESCAR: <br>unnamed (1): 21.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 21
+SENTIDO: IDA
+LATITUD: 17.076001
+LONGITUD: -96.741272
+NUM PARADA GESCAR: 
+unnamed (1): 21</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>21.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.076001</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.741272</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>21.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.741272,17.076001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montes de Oca</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 22<br>SENTIDO: IDA<br>LATITUD: 17.073299<br>LONGITUD: -96.739283<br>NUM PARADA GESCAR: <br>unnamed (1): 22<br>NUM  PARADERO: 22.0<br>SENTIDO: IDA<br>LATITUD: 17.073299<br>LONGITUD: -96.739283<br>NUM PARADA GESCAR: <br>unnamed (1): 22.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 22
+SENTIDO: IDA
+LATITUD: 17.073299
+LONGITUD: -96.739283
+NUM PARADA GESCAR: 
+unnamed (1): 22</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>22.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.073299</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.739283</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>22.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.739283,17.073299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo del Ferrocarril</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 23<br>SENTIDO: IDA<br>LATITUD: 17.068481<br>LONGITUD: -96.736731<br>NUM PARADA GESCAR: <br>unnamed (1): 23<br>NUM  PARADERO: 23.0<br>SENTIDO: IDA<br>LATITUD: 17.068481<br>LONGITUD: -96.736731<br>NUM PARADA GESCAR: <br>unnamed (1): 23.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 23
+SENTIDO: IDA
+LATITUD: 17.068481
+LONGITUD: -96.736731
+NUM PARADA GESCAR: 
+unnamed (1): 23</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>23.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068481</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.736731</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>23.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.736731,17.068481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yubez Juana Cata</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 24<br>SENTIDO: IDA<br>LATITUD: 17.061841<br>LONGITUD: -96.734487<br>NUM PARADA GESCAR: <br>unnamed (1): 24<br>NUM  PARADERO: 24.0<br>SENTIDO: IDA<br>LATITUD: 17.061841<br>LONGITUD: -96.734487<br>NUM PARADA GESCAR: <br>unnamed (1): 24.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 24
+SENTIDO: IDA
+LATITUD: 17.061841
+LONGITUD: -96.734487
+NUM PARADA GESCAR: 
+unnamed (1): 24</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>24.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061841</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.734487</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>24.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.734487,17.061841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalupe Victoria</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 25<br>SENTIDO: IDA<br>LATITUD: 17.061195<br>LONGITUD: -96.732167<br>NUM PARADA GESCAR: <br>unnamed (1): 25<br>NUM  PARADERO: 25.0<br>SENTIDO: IDA<br>LATITUD: 17.061195<br>LONGITUD: -96.732167<br>NUM PARADA GESCAR: <br>unnamed (1): 25.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 25
+SENTIDO: IDA
+LATITUD: 17.061195
+LONGITUD: -96.732167
+NUM PARADA GESCAR: 
+unnamed (1): 25</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>25.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061195</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.732167</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>25.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.732167,17.061195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mier y Teran</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 26<br>SENTIDO: IDA<br>LATITUD: 17.061057<br>LONGITUD: -96.729965<br>NUM PARADA GESCAR: <br>unnamed (1): 26<br>NUM  PARADERO: 26.0<br>SENTIDO: IDA<br>LATITUD: 17.061057<br>LONGITUD: -96.729965<br>NUM PARADA GESCAR: <br>unnamed (1): 26.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 26
+SENTIDO: IDA
+LATITUD: 17.061057
+LONGITUD: -96.729965
+NUM PARADA GESCAR: 
+unnamed (1): 26</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>26.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061057</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.729965</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>26.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.729965,17.061057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miguel Hidalgo</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 27<br>SENTIDO: IDA<br>LATITUD: 17.061287<br>LONGITUD: -96.726692<br>NUM PARADA GESCAR: <br>unnamed (1): 27<br>NUM  PARADERO: 27.0<br>SENTIDO: IDA<br>LATITUD: 17.061287<br>LONGITUD: -96.726692<br>NUM PARADA GESCAR: <br>unnamed (1): 27.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 27
+SENTIDO: IDA
+LATITUD: 17.061287
+LONGITUD: -96.726692
+NUM PARADA GESCAR: 
+unnamed (1): 27</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>27.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.061287</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726692</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>27.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726692,17.061287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Morelos</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 28<br>SENTIDO: IDA<br>LATITUD: 17.063045<br>LONGITUD: -96.726346<br>NUM PARADA GESCAR: <br>unnamed (1): 28<br>NUM  PARADERO: 28.0<br>SENTIDO: IDA<br>LATITUD: 17.063045<br>LONGITUD: -96.726346<br>NUM PARADA GESCAR: <br>unnamed (1): 28.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 28
+SENTIDO: IDA
+LATITUD: 17.063045
+LONGITUD: -96.726346
+NUM PARADA GESCAR: 
+unnamed (1): 28</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>28.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.063045</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726346</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>28.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726346,17.063045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Allende</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 29<br>SENTIDO: IDA<br>LATITUD: 17.06591<br>LONGITUD: -96.725787<br>NUM PARADA GESCAR: <br>unnamed (1): 29<br>NUM  PARADERO: 29.0<br>SENTIDO: IDA<br>LATITUD: 17.06591<br>LONGITUD: -96.725787<br>NUM PARADA GESCAR: <br>unnamed (1): 29.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 29
+SENTIDO: IDA
+LATITUD: 17.06591
+LONGITUD: -96.725787
+NUM PARADA GESCAR: 
+unnamed (1): 29</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>29.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06591</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725787</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>29.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725787,17.06591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quetzalcoatl</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 30<br>SENTIDO: IDA<br>LATITUD: 17.067883<br>LONGITUD: -96.725373<br>NUM PARADA GESCAR: <br>unnamed (1): 30<br>NUM  PARADERO: 30.0<br>SENTIDO: IDA<br>LATITUD: 17.067883<br>LONGITUD: -96.725373<br>NUM PARADA GESCAR: <br>unnamed (1): 30.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 30
+SENTIDO: IDA
+LATITUD: 17.067883
+LONGITUD: -96.725373
+NUM PARADA GESCAR: 
+unnamed (1): 30</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>30.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.067883</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725373</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>30.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725373,17.067883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marcos Perez</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 31<br>SENTIDO: IDA<br>LATITUD: 17.069736<br>LONGITUD: -96.725021<br>NUM PARADA GESCAR: <br>unnamed (1): 31<br>NUM  PARADERO: 31.0<br>SENTIDO: IDA<br>LATITUD: 17.069736<br>LONGITUD: -96.725021<br>NUM PARADA GESCAR: <br>unnamed (1): 31.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 31
+SENTIDO: IDA
+LATITUD: 17.069736
+LONGITUD: -96.725021
+NUM PARADA GESCAR: 
+unnamed (1): 31</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>31.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069736</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725021</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>31.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725021,17.069736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porfirio Diaz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 32<br>SENTIDO: IDA<br>LATITUD: 17.072538<br>LONGITUD: -96.724524<br>NUM PARADA GESCAR: <br>unnamed (1): 32<br>NUM  PARADERO: 32.0<br>SENTIDO: IDA<br>LATITUD: 17.072538<br>LONGITUD: -96.724524<br>NUM PARADA GESCAR: <br>unnamed (1): 32.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 32
+SENTIDO: IDA
+LATITUD: 17.072538
+LONGITUD: -96.724524
+NUM PARADA GESCAR: 
+unnamed (1): 32</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>32.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072538</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.724524</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>32.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.724524,17.072538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de la Reforma</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 33<br>SENTIDO: IDA<br>LATITUD: 17.071918<br>LONGITUD: -96.721456<br>NUM PARADA GESCAR: <br>unnamed (1): 33<br>NUM  PARADERO: 33.0<br>SENTIDO: IDA<br>LATITUD: 17.071918<br>LONGITUD: -96.721456<br>NUM PARADA GESCAR: <br>unnamed (1): 33.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 33
+SENTIDO: IDA
+LATITUD: 17.071918
+LONGITUD: -96.721456
+NUM PARADA GESCAR: 
+unnamed (1): 33</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>33.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.071918</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.721456</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>33.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.721456,17.071918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ADO</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 34<br>SENTIDO: IDA<br>LATITUD: 17.070778<br>LONGITUD: -96.716503<br>NUM PARADA GESCAR: <br>unnamed (1): 34<br>NUM  PARADERO: 34.0<br>SENTIDO: IDA<br>LATITUD: 17.070778<br>LONGITUD: -96.716503<br>NUM PARADA GESCAR: <br>unnamed (1): 34.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 34
+SENTIDO: IDA
+LATITUD: 17.070778
+LONGITUD: -96.716503
+NUM PARADA GESCAR: 
+unnamed (1): 34</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>34.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070778</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.716503</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>34.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.716503,17.070778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Ruiz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 35<br>SENTIDO: IDA<br>LATITUD: 17.070164<br>LONGITUD: -96.71167<br>NUM PARADA GESCAR: <br>unnamed (1): 35<br>NUM  PARADERO: 35.0<br>SENTIDO: IDA<br>LATITUD: 17.070164<br>LONGITUD: -96.71167<br>NUM PARADA GESCAR: <br>unnamed (1): 35.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 35
+SENTIDO: IDA
+LATITUD: 17.070164
+LONGITUD: -96.71167
+NUM PARADA GESCAR: 
+unnamed (1): 35</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>35.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070164</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.71167</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>35.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.71167,17.070164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Peru</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 36<br>SENTIDO: IDA<br>LATITUD: 17.069756<br>LONGITUD: -96.707911<br>NUM PARADA GESCAR: <br>unnamed (1): 36<br>NUM  PARADERO: 36.0<br>SENTIDO: IDA<br>LATITUD: 17.069756<br>LONGITUD: -96.707911<br>NUM PARADA GESCAR: <br>unnamed (1): 36.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 36
+SENTIDO: IDA
+LATITUD: 17.069756
+LONGITUD: -96.707911
+NUM PARADA GESCAR: 
+unnamed (1): 36</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>36.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069756</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.707911</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>36.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.707911,17.069756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cd. de las Canteras</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 37<br>SENTIDO: IDA<br>LATITUD: 17.069578<br>LONGITUD: -96.70507<br>NUM PARADA GESCAR: <br>unnamed (1): 37<br>NUM  PARADERO: 37.0<br>SENTIDO: IDA<br>LATITUD: 17.069578<br>LONGITUD: -96.70507<br>NUM PARADA GESCAR: <br>unnamed (1): 37.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 37
+SENTIDO: IDA
+LATITUD: 17.069578
+LONGITUD: -96.70507
+NUM PARADA GESCAR: 
+unnamed (1): 37</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>37.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069578</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.70507</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>37.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.70507,17.069578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28° Zona Militar</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 38<br>SENTIDO: IDA<br>LATITUD: 17.06914<br>LONGITUD: -96.70017<br>NUM PARADA GESCAR: <br>unnamed (1): 38<br>NUM  PARADERO: 38.0<br>SENTIDO: IDA<br>LATITUD: 17.06914<br>LONGITUD: -96.70017<br>NUM PARADA GESCAR: <br>unnamed (1): 38.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 38
+SENTIDO: IDA
+LATITUD: 17.06914
+LONGITUD: -96.70017
+NUM PARADA GESCAR: 
+unnamed (1): 38</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>38.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06914</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.70017</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>38.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.70017,17.06914,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Macroplaza Oaxaca</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 39<br>SENTIDO: IDA<br>LATITUD: 17.068664<br>LONGITUD: -96.694662<br>NUM PARADA GESCAR: <br>unnamed (1): 39<br>NUM  PARADERO: 39.0<br>SENTIDO: IDA<br>LATITUD: 17.068664<br>LONGITUD: -96.694662<br>NUM PARADA GESCAR: <br>unnamed (1): 39.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 39
+SENTIDO: IDA
+LATITUD: 17.068664
+LONGITUD: -96.694662
+NUM PARADA GESCAR: 
+unnamed (1): 39</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>39.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068664</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.694662</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>39.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694662,17.068664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siracuza</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 40<br>SENTIDO: IDA<br>LATITUD: 17.068365<br>LONGITUD: -96.69093<br>NUM PARADA GESCAR: <br>unnamed (1): 40<br>NUM  PARADERO: 40.0<br>SENTIDO: IDA<br>LATITUD: 17.068365<br>LONGITUD: -96.69093<br>NUM PARADA GESCAR: <br>unnamed (1): 40.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 40
+SENTIDO: IDA
+LATITUD: 17.068365
+LONGITUD: -96.69093
+NUM PARADA GESCAR: 
+unnamed (1): 40</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>40.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068365</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.69093</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>40.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.69093,17.068365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Diego de Horno la Raya</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 41<br>SENTIDO: IDA<br>LATITUD: 17.067003<br>LONGITUD: -96.685381<br>NUM PARADA GESCAR: <br>unnamed (1): 41<br>NUM  PARADERO: 41.0<br>SENTIDO: IDA<br>LATITUD: 17.067003<br>LONGITUD: -96.685381<br>NUM PARADA GESCAR: <br>unnamed (1): 41.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 41
+SENTIDO: IDA
+LATITUD: 17.067003
+LONGITUD: -96.685381
+NUM PARADA GESCAR: 
+unnamed (1): 41</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>41.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.067003</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.685381</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>41.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.685381,17.067003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niños Heroes</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 42<br>SENTIDO: IDA<br>LATITUD: 17.065996<br>LONGITUD: -96.681721<br>NUM PARADA GESCAR: <br>unnamed (1): 42<br>NUM  PARADERO: 42.0<br>SENTIDO: IDA<br>LATITUD: 17.065996<br>LONGITUD: -96.681721<br>NUM PARADA GESCAR: <br>unnamed (1): 42.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 42
+SENTIDO: IDA
+LATITUD: 17.065996
+LONGITUD: -96.681721
+NUM PARADA GESCAR: 
+unnamed (1): 42</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>42.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.065996</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.681721</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>42.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.681721,17.065996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carretera a Ixtlan</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 43<br>SENTIDO: IDA<br>LATITUD: 17.06578885<br>LONGITUD: -96.67900442<br>NUM PARADA GESCAR: <br>unnamed (1): 43<br>NUM  PARADERO: 43.0<br>SENTIDO: IDA<br>LATITUD: 17.06578885<br>LONGITUD: -96.67900442<br>NUM PARADA GESCAR: <br>unnamed (1): 43.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 43
+SENTIDO: IDA
+LATITUD: 17.06578885
+LONGITUD: -96.67900442
+NUM PARADA GESCAR: 
+unnamed (1): 43</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>43.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06578885</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.67900442</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>43.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.679004,17.065789,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Surcos Largos</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 44<br>SENTIDO: IDA<br>LATITUD: 17.067059<br>LONGITUD: -96.677365<br>NUM PARADA GESCAR: <br>unnamed (1): 44<br>NUM  PARADERO: 44.0<br>SENTIDO: IDA<br>LATITUD: 17.067059<br>LONGITUD: -96.677365<br>NUM PARADA GESCAR: <br>unnamed (1): 44.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 44
+SENTIDO: IDA
+LATITUD: 17.067059
+LONGITUD: -96.677365
+NUM PARADA GESCAR: 
+unnamed (1): 44</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>44.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.067059</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.677365</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>44.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.677365,17.067059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antequera</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 45<br>SENTIDO: IDA<br>LATITUD: 17.069526<br>LONGITUD: -96.674475<br>NUM PARADA GESCAR: <br>unnamed (1): 45<br>NUM  PARADERO: 45.0<br>SENTIDO: IDA<br>LATITUD: 17.069526<br>LONGITUD: -96.674475<br>NUM PARADA GESCAR: <br>unnamed (1): 45.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 45
+SENTIDO: IDA
+LATITUD: 17.069526
+LONGITUD: -96.674475
+NUM PARADA GESCAR: 
+unnamed (1): 45</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>45.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069526</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.674475</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>45.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.674475,17.069526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino Real</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 46<br>SENTIDO: IDA<br>LATITUD: 17.073052<br>LONGITUD: -96.670198<br>NUM PARADA GESCAR: <br>unnamed (1): 46<br>NUM  PARADERO: 46.0<br>SENTIDO: IDA<br>LATITUD: 17.073052<br>LONGITUD: -96.670198<br>NUM PARADA GESCAR: <br>unnamed (1): 46.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 46
+SENTIDO: IDA
+LATITUD: 17.073052
+LONGITUD: -96.670198
+NUM PARADA GESCAR: 
+unnamed (1): 46</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>46.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.073052</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.670198</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>46.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.670198,17.073052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Libertad</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 47<br>SENTIDO: IDA<br>LATITUD: 17.075588<br>LONGITUD: -96.667131<br>NUM PARADA GESCAR: <br>unnamed (1): 47<br>NUM  PARADERO: 47.0<br>SENTIDO: IDA<br>LATITUD: 17.075588<br>LONGITUD: -96.667131<br>NUM PARADA GESCAR: <br>unnamed (1): 47.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 47
+SENTIDO: IDA
+LATITUD: 17.075588
+LONGITUD: -96.667131
+NUM PARADA GESCAR: 
+unnamed (1): 47</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>47.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.075588</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.667131</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>47.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.667131,17.075588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antiguo Camino a Tlalixtac</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 48<br>SENTIDO: IDA<br>LATITUD: 17.078778<br>LONGITUD: -96.663241<br>NUM PARADA GESCAR: <br>unnamed (1): 48<br>NUM  PARADERO: 48.0<br>SENTIDO: IDA<br>LATITUD: 17.078778<br>LONGITUD: -96.663241<br>NUM PARADA GESCAR: <br>unnamed (1): 48.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 48
+SENTIDO: IDA
+LATITUD: 17.078778
+LONGITUD: -96.663241
+NUM PARADA GESCAR: 
+unnamed (1): 48</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>48.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.078778</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.663241</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>48.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.663241,17.078778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino al Tabaaz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 49<br>SENTIDO: IDA<br>LATITUD: 17.083443<br>LONGITUD: -96.657825<br>NUM PARADA GESCAR: <br>unnamed (1): 49<br>NUM  PARADERO: 49.0<br>SENTIDO: IDA<br>LATITUD: 17.083443<br>LONGITUD: -96.657825<br>NUM PARADA GESCAR: <br>unnamed (1): 49.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 49
+SENTIDO: IDA
+LATITUD: 17.083443
+LONGITUD: -96.657825
+NUM PARADA GESCAR: 
+unnamed (1): 49</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>49.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.083443</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.657825</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>49.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.657825,17.083443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino antiguo a Huayapam</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 51<br>SENTIDO: IDA<br>LATITUD: 17.0878629<br>LONGITUD: -96.6551608<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 50<br>NUM  PARADERO: 51.0<br>SENTIDO: IDA<br>LATITUD: 17.0878629<br>LONGITUD: -96.6551608<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 50.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 51
+SENTIDO: IDA
+LATITUD: 17.0878629
+LONGITUD: -96.6551608
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 50</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>51.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0878629</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6551608</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>50.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.655161,17.087863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siempre viva</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 52<br>SENTIDO: IDA<br>LATITUD: 17.0924232<br>LONGITUD: -96.6543685<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 51<br>NUM  PARADERO: 52.0<br>SENTIDO: IDA<br>LATITUD: 17.0924232<br>LONGITUD: -96.6543685<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 51.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 52
+SENTIDO: IDA
+LATITUD: 17.0924232
+LONGITUD: -96.6543685
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 51</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>52.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0924232</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6543685</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>51.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.654368,17.092423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Encantada</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 53<br>SENTIDO: IDA<br>LATITUD: 17.0990884<br>LONGITUD: -96.657735<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 52<br>NUM  PARADERO: 53.0<br>SENTIDO: IDA<br>LATITUD: 17.0990884<br>LONGITUD: -96.657735<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 52.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 53
+SENTIDO: IDA
+LATITUD: 17.0990884
+LONGITUD: -96.657735
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 52</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>53.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0990884</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.657735</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>52.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.657735,17.099088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huajal</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 54<br>SENTIDO: IDA<br>LATITUD: 17.1008717<br>LONGITUD: -96.6599468<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 53<br>NUM  PARADERO: 54.0<br>SENTIDO: IDA<br>LATITUD: 17.1008717<br>LONGITUD: -96.6599468<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 53.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 54
+SENTIDO: IDA
+LATITUD: 17.1008717
+LONGITUD: -96.6599468
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 53</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>54.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1008717</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6599468</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>53.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.659947,17.100872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Paz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 55<br>SENTIDO: IDA<br>LATITUD: 17.1021847<br>LONGITUD: -96.6622421<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 54<br>NUM  PARADERO: 55.0<br>SENTIDO: IDA<br>LATITUD: 17.1021847<br>LONGITUD: -96.6622421<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 54.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 55
+SENTIDO: IDA
+LATITUD: 17.1021847
+LONGITUD: -96.6622421
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 54</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>55.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1021847</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6622421</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>54.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.662242,17.102185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base Huayapam</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 56<br>SENTIDO: IDA<br>LATITUD: 17.1025169<br>LONGITUD: -96.665102<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 55<br>NUM  PARADERO: 56.0<br>SENTIDO: IDA<br>LATITUD: 17.1025169<br>LONGITUD: -96.665102<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 55.0]]></description>
+        <styleUrl>#icon-1532-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 56
+SENTIDO: IDA
+LATITUD: 17.1025169
+LONGITUD: -96.665102
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 55</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>56.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>IDA</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1025169</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.665102</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>55.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.665102,17.102517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>REGRESO</name>
+      <Placemark>
+        <name>REGRESO</name>
+        <description><![CDATA[descripción: <br>NUM  PARADERO: <br>SENTIDO: <br>LATITUD: <br>LONGITUD: <br>NUM PARADA GESCAR: <br>unnamed (1): ]]></description>
+        <styleUrl>#line-7CB342-5000</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value/>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value/>
+          </Data>
+          <Data name="SENTIDO">
+            <value/>
+          </Data>
+          <Data name="LATITUD">
+            <value/>
+          </Data>
+          <Data name="LONGITUD">
+            <value/>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -96.66508,17.102519,0
+            -96.664703,17.102473,0
+            -96.664252,17.102407,0
+            -96.663301,17.102241,0
+            -96.662964,17.102183,0
+            -96.662515,17.102163,0
+            -96.662198,17.102124,0
+            -96.661406,17.101878,0
+            -96.661262,17.101801,0
+            -96.660739,17.101486,0
+            -96.660543,17.101304,0
+            -96.659931,17.100789,0
+            -96.659464,17.100425,0
+            -96.658435,17.099568,0
+            -96.657979,17.099178,0
+            -96.6568,17.098209,0
+            -96.656462,17.097829,0
+            -96.656207,17.097336,0
+            -96.655795,17.096173,0
+            -96.655594,17.095591,0
+            -96.655122,17.094227,0
+            -96.654748,17.093222,0
+            -96.654616,17.092879,0
+            -96.654482,17.092545,0
+            -96.654378,17.092263,0
+            -96.654366,17.092208,0
+            -96.654354,17.091916,0
+            -96.654419,17.091498,0
+            -96.654449,17.091394,0
+            -96.654556,17.091014,0
+            -96.654655,17.090711,0
+            -96.654719,17.090469,0
+            -96.654703,17.09031,0
+            -96.654805,17.090074,0
+            -96.654907,17.089657,0
+            -96.655073,17.088893,0
+            -96.655376,17.087582,0
+            -96.655558,17.086782,0
+            -96.655687,17.086223,0
+            -96.655918,17.085582,0
+            -96.656106,17.085274,0
+            -96.656286,17.084947,0
+            -96.656502,17.084662,0
+            -96.656679,17.084454,0
+            -96.656781,17.084334,0
+            -96.656872,17.084237,0
+            -96.656988,17.084121,0
+            -96.657106,17.084008,0
+            -96.657238,17.083885,0
+            -96.657395,17.083746,0
+            -96.657506,17.08365,0
+            -96.657583,17.083593,0
+            -96.657664,17.083525,0
+            -96.657787,17.083405,0
+            -96.657881,17.083341,0
+            -96.658118,17.083161,0
+            -96.658642,17.082735,0
+            -96.659485,17.082035,0
+            -96.65985,17.081735,0
+            -96.660967,17.0808,0
+            -96.661589,17.080287,0
+            -96.662869,17.079221,0
+            -96.663556,17.078703,0
+            -96.664221,17.078149,0
+            -96.664896,17.077585,0
+            -96.665333,17.077228,0
+            -96.666502,17.076269,0
+            -96.666883,17.075951,0
+            -96.667397,17.075518,0
+            -96.669252,17.074013,0
+            -96.67029,17.07317,0
+            -96.670623,17.072898,0
+            -96.671151,17.072449,0
+            -96.672182,17.071609,0
+            -96.672762,17.071138,0
+            -96.673387,17.070617,0
+            -96.674819,17.069434,0
+            -96.675465,17.068908,0
+            -96.676068,17.068411,0
+            -96.676744,17.067857,0
+            -96.677211,17.06747,0
+            -96.678024,17.066819,0
+            -96.678528,17.066419,0
+            -96.678871,17.066142,0
+            -96.679196,17.06585,0
+            -96.679317,17.065755,0
+            -96.679362,17.065698,0
+            -96.679559,17.065611,0
+            -96.679744,17.065572,0
+            -96.679833,17.06559,0
+            -96.680707,17.065857,0
+            -96.681496,17.066078,0
+            -96.682743,17.066454,0
+            -96.684004,17.066838,0
+            -96.684841,17.067084,0
+            -96.685843,17.067367,0
+            -96.687254,17.067777,0
+            -96.688622,17.068177,0
+            -96.689304,17.068379,0
+            -96.689838,17.068474,0
+            -96.690182,17.068515,0
+            -96.690793,17.068576,0
+            -96.691631,17.068635,0
+            -96.691982,17.068646,0
+            -96.692354,17.068686,0
+            -96.694406,17.068857,0
+            -96.694749,17.068888,0
+            -96.695495,17.068923,0
+            -96.69681,17.06901,0
+            -96.697107,17.069062,0
+            -96.697381,17.069131,0
+            -96.698657,17.069241,0
+            -96.699838,17.069359,0
+            -96.701127,17.069475,0
+            -96.702106,17.069557,0
+            -96.702522,17.069598,0
+            -96.703339,17.069674,0
+            -96.703603,17.069694,0
+            -96.704279,17.069743,0
+            -96.70478,17.069778,0
+            -96.705691,17.069846,0
+            -96.706595,17.069924,0
+            -96.70763,17.070029,0
+            -96.708102,17.070057,0
+            -96.70862,17.070093,0
+            -96.709452,17.07018,0
+            -96.710203,17.070232,0
+            -96.711244,17.070319,0
+            -96.711611,17.070339,0
+            -96.71219,17.070391,0
+            -96.712585,17.070432,0
+            -96.713,17.070473,0
+            -96.713277,17.070488,0
+            -96.713548,17.070483,0
+            -96.713726,17.070476,0
+            -96.714335,17.070524,0
+            -96.714681,17.070555,0
+            -96.714941,17.070613,0
+            -96.715388,17.070697,0
+            -96.715715,17.070764,0
+            -96.716142,17.070872,0
+            -96.716339,17.070908,0
+            -96.716672,17.07101,0
+            -96.717356,17.071139,0
+            -96.717678,17.071195,0
+            -96.718104,17.071213,0
+            -96.718782,17.071349,0
+            -96.719045,17.071426,0
+            -96.719221,17.071489,0
+            -96.71962,17.071515,0
+            -96.71978,17.071556,0
+            -96.720317,17.071699,0
+            -96.720617,17.07191,0
+            -96.721414,17.07211,0
+            -96.721733,17.072192,0
+            -96.722524,17.072332,0
+            -96.723444,17.072481,0
+            -96.724232,17.072586,0
+            -96.724419,17.0726,0
+            -96.725164,17.072758,0
+            -96.725602,17.072892,0
+            -96.725674,17.072792,0
+            -96.725805,17.072128,0
+            -96.725942,17.071438,0
+            -96.726089,17.07067,0
+            -96.726188,17.070226,0
+            -96.726236,17.070003,0
+            -96.726333,17.069416,0
+            -96.726426,17.068916,0
+            -96.72648,17.067942,0
+            -96.726539,17.067162,0
+            -96.726614,17.066788,0
+            -96.726754,17.06607,0
+            -96.726933,17.065247,0
+            -96.727105,17.064377,0
+            -96.727238,17.063808,0
+            -96.727318,17.063377,0
+            -96.727463,17.062756,0
+            -96.727514,17.06251,0
+            -96.727555,17.062213,0
+            -96.727673,17.061608,0
+            -96.72774,17.061246,0
+            -96.727793,17.060984,0
+            -96.727876,17.060666,0
+            -96.72797,17.060184,0
+            -96.728069,17.059725,0
+            -96.72867,17.059863,0
+            -96.729037,17.059948,0
+            -96.729983,17.06011,0
+            -96.730852,17.060294,0
+            -96.731742,17.060507,0
+            -96.732147,17.060551,0
+            -96.732211,17.060027,0
+            -96.733021,17.060114,0
+            -96.733917,17.061355,0
+            -96.734346,17.06195,0
+            -96.735011,17.062873,0
+            -96.735199,17.06317,0
+            -96.735526,17.063642,0
+            -96.735687,17.06395,0
+            -96.735951,17.064459,0
+            -96.736063,17.064736,0
+            -96.73616,17.064984,0
+            -96.736184,17.06512,0
+            -96.736286,17.065446,0
+            -96.736286,17.065561,0
+            -96.736241,17.065717,0
+            -96.736185,17.065838,0
+            -96.736048,17.065984,0
+            -96.73586,17.066115,0
+            -96.735745,17.066086,0
+            -96.735578,17.06612,0
+            -96.735466,17.066176,0
+            -96.735296,17.066412,0
+            -96.735184,17.066507,0
+            -96.734366,17.066756,0
+            -96.734586,17.066989,0
+            -96.734727,17.067125,0
+            -96.734805,17.067195,0
+            -96.734963,17.06739,0
+            -96.735236,17.067759,0
+            -96.735392,17.067982,0
+            -96.735497,17.068159,0
+            -96.735696,17.06852,0
+            -96.735975,17.069044,0
+            -96.736162,17.06956,0
+            -96.736422,17.070185,0
+            -96.736593,17.070815,0
+            -96.736647,17.07098,0
+            -96.737084,17.071787,0
+            -96.737443,17.072469,0
+            -96.738222,17.073816,0
+            -96.738594,17.074417,0
+            -96.738969,17.074961,0
+            -96.739195,17.075212,0
+            -96.739526,17.075634,0
+            -96.739714,17.075921,0
+            -96.740165,17.076972,0
+            -96.74059,17.07787,0
+            -96.740703,17.078152,0
+            -96.741268,17.079305,0
+            -96.741531,17.079899,0
+            -96.741378,17.080083,0
+            -96.741915,17.08037,0
+            -96.742371,17.080647,0
+            -96.74272,17.08097,0
+            -96.742956,17.081232,0
+            -96.74324,17.081821,0
+            -96.743508,17.082437,0
+            -96.743744,17.082975,0
+            -96.743991,17.083498,0
+            -96.744206,17.084054,0
+            -96.744356,17.084385,0
+            -96.74465,17.085099,0
+            -96.745016,17.085933,0
+            -96.745051,17.086095,0
+            -96.745303,17.08662,0
+            -96.745652,17.087405,0
+            -96.74577,17.08773,0
+            -96.746017,17.088229,0
+            -96.746723,17.08993,0
+            -96.747152,17.09094,0
+            -96.747861,17.092544,0
+            -96.747995,17.092841,0
+            -96.748215,17.0934,0
+            -96.748725,17.094595,0
+            -96.749073,17.095374,0
+            -96.749678,17.096716,0
+            -96.749892,17.097392,0
+            -96.750209,17.097918,0
+            -96.750807,17.0994,0
+            -96.751395,17.100724,0
+            -96.751648,17.101339,0
+            -96.752586,17.103549,0
+            -96.752726,17.103467,0
+            -96.75353,17.10317,0
+            -96.754198,17.102959,0
+            -96.75518,17.102618,0
+            -96.756203,17.102296,0
+            -96.756774,17.102144,0
+            -96.75737,17.101985,0
+            -96.757989,17.101798,0
+            -96.758601,17.101614,0
+            -96.759156,17.101465,0
+            -96.759671,17.10133,0
+            -96.760143,17.101168,0
+            -96.760495,17.101063,0
+            -96.760731,17.101007,0
+            -96.760827,17.101196,0
+            -96.760985,17.101409,0
+            -96.761208,17.101594,0
+            -96.761216,17.101691,0
+            -96.761157,17.101976,0
+            -96.761167,17.102064,0
+            -96.761316,17.102433,0
+            -96.76157,17.103064,0
+            -96.761766,17.103545,0
+            -96.762089,17.104326,0
+            -96.762224,17.104691,0
+            -96.762458,17.105288,0
+            -96.762618,17.105702,0
+            -96.762765,17.106079,0
+            -96.762984,17.106642,0
+            -96.76307,17.106869,0
+            -96.763203,17.107205,0
+            -96.763324,17.10752,0
+            -96.763386,17.10772,0
+            -96.763565,17.108146,0
+            -96.763902,17.109005,0
+            -96.764012,17.109259,0
+            -96.76417,17.109508,0
+            -96.764498,17.109843,0
+            -96.764725,17.110013,0
+            -96.765113,17.110268,0
+            -96.765454,17.110545,0
+            -96.76598,17.110977,0
+            -96.766059,17.111027,0
+            -96.766245,17.110954,0
+            -96.766528,17.110845,0
+            -96.766878,17.110724,0
+            -96.768198,17.110241,0
+            -96.768622,17.110074,0
+            -96.76864,17.110087,0
+            -96.768722,17.110264,0
+            -96.76877,17.11049,0
+            -96.768853,17.110636,0
+            -96.76892,17.110725,0
+            -96.769068,17.110843,0
+            -96.769237,17.110948,0
+            -96.769475,17.111064,0
+            -96.769764,17.111133,0
+            -96.769947,17.111176,0
+            -96.770092,17.111197,0
+            -96.770244,17.111228,0
+            -96.770357,17.111287,0
+            -96.770398,17.111319,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Base Huayapam</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 57<br>SENTIDO: REGRESO<br>LATITUD: 17.1025169<br>LONGITUD: -96.665102<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 1<br>NUM  PARADERO: 57.0<br>SENTIDO: REGRESO<br>LATITUD: 17.1025169<br>LONGITUD: -96.665102<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 1.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 57
+SENTIDO: REGRESO
+LATITUD: 17.1025169
+LONGITUD: -96.665102
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 1</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>57.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1025169</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.665102</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>1.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.665102,17.102517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Paz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 58<br>SENTIDO: REGRESO<br>LATITUD: 17.1021405<br>LONGITUD: -96.6626288<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 2<br>NUM  PARADERO: 58.0<br>SENTIDO: REGRESO<br>LATITUD: 17.1021405<br>LONGITUD: -96.6626288<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 2.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 58
+SENTIDO: REGRESO
+LATITUD: 17.1021405
+LONGITUD: -96.6626288
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 2</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>58.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1021405</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6626288</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>2.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.662629,17.10214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huajal</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 59<br>SENTIDO: REGRESO<br>LATITUD: 17.1007961<br>LONGITUD: -96.659996<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 3<br>NUM  PARADERO: 59.0<br>SENTIDO: REGRESO<br>LATITUD: 17.1007961<br>LONGITUD: -96.659996<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 3.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 59
+SENTIDO: REGRESO
+LATITUD: 17.1007961
+LONGITUD: -96.659996
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 3</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>59.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1007961</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.659996</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>3.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.659996,17.100796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>San Fernando</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 60<br>SENTIDO: REGRESO<br>LATITUD: 17.096088<br>LONGITUD: -96.6558176<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 4<br>NUM  PARADERO: 60.0<br>SENTIDO: REGRESO<br>LATITUD: 17.096088<br>LONGITUD: -96.6558176<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 4.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 60
+SENTIDO: REGRESO
+LATITUD: 17.096088
+LONGITUD: -96.6558176
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 4</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>60.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.096088</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6558176</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>4.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.655818,17.096088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Siempre viva</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 61<br>SENTIDO: REGRESO<br>LATITUD: 17.0928578<br>LONGITUD: -96.6546293<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 5<br>NUM  PARADERO: 61.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0928578<br>LONGITUD: -96.6546293<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 5.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 61
+SENTIDO: REGRESO
+LATITUD: 17.0928578
+LONGITUD: -96.6546293
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 5</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>61.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0928578</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6546293</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>5.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.654629,17.092858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino Antiguo a Huayapam</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 62<br>SENTIDO: REGRESO<br>LATITUD: 17.0875986<br>LONGITUD: -96.6553946<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 6<br>NUM  PARADERO: 62.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0875986<br>LONGITUD: -96.6553946<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 6.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 62
+SENTIDO: REGRESO
+LATITUD: 17.0875986
+LONGITUD: -96.6553946
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 6</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>62.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0875986</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6553946</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>6.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.655395,17.087599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino al Tabaz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 63<br>SENTIDO: REGRESO<br>LATITUD: 17.0834398<br>LONGITUD: -96.6577995<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 7<br>NUM  PARADERO: 63.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0834398<br>LONGITUD: -96.6577995<br>NUM PARADA GESCAR: NUEVO<br>unnamed (1): 7.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 63
+SENTIDO: REGRESO
+LATITUD: 17.0834398
+LONGITUD: -96.6577995
+NUM PARADA GESCAR: NUEVO
+unnamed (1): 7</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>63.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0834398</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.6577995</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value>NUEVO</value>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>7.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.6578,17.08344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Constitucion</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 64<br>SENTIDO: REGRESO<br>LATITUD: 17.07878<br>LONGITUD: -96.66347<br>NUM PARADA GESCAR: <br>unnamed (1): 8<br>NUM  PARADERO: 64.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07878<br>LONGITUD: -96.66347<br>NUM PARADA GESCAR: <br>unnamed (1): 8.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 64
+SENTIDO: REGRESO
+LATITUD: 17.07878
+LONGITUD: -96.66347
+NUM PARADA GESCAR: 
+unnamed (1): 8</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>64.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07878</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.66347</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>8.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.66347,17.07878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Libertad</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 65<br>SENTIDO: REGRESO<br>LATITUD: 17.075745<br>LONGITUD: -96.667264<br>NUM PARADA GESCAR: <br>unnamed (1): 9<br>NUM  PARADERO: 65.0<br>SENTIDO: REGRESO<br>LATITUD: 17.075745<br>LONGITUD: -96.667264<br>NUM PARADA GESCAR: <br>unnamed (1): 9.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 65
+SENTIDO: REGRESO
+LATITUD: 17.075745
+LONGITUD: -96.667264
+NUM PARADA GESCAR: 
+unnamed (1): 9</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>65.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.075745</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.667264</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>9.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.667264,17.075745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camino Real a San Francisco Tutla</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 66<br>SENTIDO: REGRESO<br>LATITUD: 17.073059<br>LONGITUD: -96.670403<br>NUM PARADA GESCAR: <br>unnamed (1): 10<br>NUM  PARADERO: 66.0<br>SENTIDO: REGRESO<br>LATITUD: 17.073059<br>LONGITUD: -96.670403<br>NUM PARADA GESCAR: <br>unnamed (1): 10.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 66
+SENTIDO: REGRESO
+LATITUD: 17.073059
+LONGITUD: -96.670403
+NUM PARADA GESCAR: 
+unnamed (1): 10</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>66.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.073059</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.670403</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>10.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.670403,17.073059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16 de Septiembre</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 67<br>SENTIDO: REGRESO<br>LATITUD: 17.069992<br>LONGITUD: -96.674203<br>NUM PARADA GESCAR: <br>unnamed (1): 11<br>NUM  PARADERO: 67.0<br>SENTIDO: REGRESO<br>LATITUD: 17.069992<br>LONGITUD: -96.674203<br>NUM PARADA GESCAR: <br>unnamed (1): 11.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 67
+SENTIDO: REGRESO
+LATITUD: 17.069992
+LONGITUD: -96.674203
+NUM PARADA GESCAR: 
+unnamed (1): 11</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>67.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069992</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.674203</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>11.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.674203,17.069992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Surcos Largos</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 68<br>SENTIDO: REGRESO<br>LATITUD: 17.067248<br>LONGITUD: -96.677488<br>NUM PARADA GESCAR: <br>unnamed (1): 12<br>NUM  PARADERO: 68.0<br>SENTIDO: REGRESO<br>LATITUD: 17.067248<br>LONGITUD: -96.677488<br>NUM PARADA GESCAR: <br>unnamed (1): 12.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 68
+SENTIDO: REGRESO
+LATITUD: 17.067248
+LONGITUD: -96.677488
+NUM PARADA GESCAR: 
+unnamed (1): 12</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>68.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.067248</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.677488</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>12.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.677488,17.067248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento a Juárez</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 69<br>SENTIDO: REGRESO<br>LATITUD: 17.065701<br>LONGITUD: -96.680104<br>NUM PARADA GESCAR: <br>unnamed (1): 13<br>NUM  PARADERO: 69.0<br>SENTIDO: REGRESO<br>LATITUD: 17.065701<br>LONGITUD: -96.680104<br>NUM PARADA GESCAR: <br>unnamed (1): 13.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 69
+SENTIDO: REGRESO
+LATITUD: 17.065701
+LONGITUD: -96.680104
+NUM PARADA GESCAR: 
+unnamed (1): 13</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>69.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.065701</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.680104</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>13.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.680104,17.065701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arroyo Seco</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 70<br>SENTIDO: REGRESO<br>LATITUD: 17.06698<br>LONGITUD: -96.68463<br>NUM PARADA GESCAR: <br>unnamed (1): 14<br>NUM  PARADERO: 70.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06698<br>LONGITUD: -96.68463<br>NUM PARADA GESCAR: <br>unnamed (1): 14.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 70
+SENTIDO: REGRESO
+LATITUD: 17.06698
+LONGITUD: -96.68463
+NUM PARADA GESCAR: 
+unnamed (1): 14</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>70.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06698</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.68463</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>14.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.68463,17.06698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carretera a San Agustín Yatareni</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 71<br>SENTIDO: REGRESO<br>LATITUD: 17.068582<br>LONGITUD: -96.690712<br>NUM PARADA GESCAR: <br>unnamed (1): 15<br>NUM  PARADERO: 71.0<br>SENTIDO: REGRESO<br>LATITUD: 17.068582<br>LONGITUD: -96.690712<br>NUM PARADA GESCAR: <br>unnamed (1): 15.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 71
+SENTIDO: REGRESO
+LATITUD: 17.068582
+LONGITUD: -96.690712
+NUM PARADA GESCAR: 
+unnamed (1): 15</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>71.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068582</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.690712</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>15.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.690712,17.068582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Macroplaza</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 72<br>SENTIDO: REGRESO<br>LATITUD: 17.068885<br>LONGITUD: -96.694576<br>NUM PARADA GESCAR: <br>unnamed (1): 16<br>NUM  PARADERO: 72.0<br>SENTIDO: REGRESO<br>LATITUD: 17.068885<br>LONGITUD: -96.694576<br>NUM PARADA GESCAR: <br>unnamed (1): 16.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 72
+SENTIDO: REGRESO
+LATITUD: 17.068885
+LONGITUD: -96.694576
+NUM PARADA GESCAR: 
+unnamed (1): 16</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>72.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068885</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.694576</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>16.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.694576,17.068885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>28° Zona Militar</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 73<br>SENTIDO: REGRESO<br>LATITUD: 17.069339<br>LONGITUD: -96.699728<br>NUM PARADA GESCAR: <br>unnamed (1): 17<br>NUM  PARADERO: 73.0<br>SENTIDO: REGRESO<br>LATITUD: 17.069339<br>LONGITUD: -96.699728<br>NUM PARADA GESCAR: <br>unnamed (1): 17.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 73
+SENTIDO: REGRESO
+LATITUD: 17.069339
+LONGITUD: -96.699728
+NUM PARADA GESCAR: 
+unnamed (1): 17</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>73.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069339</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.699728</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>17.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.699728,17.069339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mercado Zonal  las Flores</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 74<br>SENTIDO: REGRESO<br>LATITUD: 17.069777<br>LONGITUD: -96.704589<br>NUM PARADA GESCAR: <br>unnamed (1): 18<br>NUM  PARADERO: 74.0<br>SENTIDO: REGRESO<br>LATITUD: 17.069777<br>LONGITUD: -96.704589<br>NUM PARADA GESCAR: <br>unnamed (1): 18.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 74
+SENTIDO: REGRESO
+LATITUD: 17.069777
+LONGITUD: -96.704589
+NUM PARADA GESCAR: 
+unnamed (1): 18</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>74.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.069777</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.704589</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>18.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.704589,17.069777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Columpio</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 75<br>SENTIDO: REGRESO<br>LATITUD: 17.070025<br>LONGITUD: -96.707677<br>NUM PARADA GESCAR: <br>unnamed (1): 19<br>NUM  PARADERO: 75.0<br>SENTIDO: REGRESO<br>LATITUD: 17.070025<br>LONGITUD: -96.707677<br>NUM PARADA GESCAR: <br>unnamed (1): 19.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 75
+SENTIDO: REGRESO
+LATITUD: 17.070025
+LONGITUD: -96.707677
+NUM PARADA GESCAR: 
+unnamed (1): 19</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>75.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070025</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.707677</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>19.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.707677,17.070025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Ruiz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 76<br>SENTIDO: REGRESO<br>LATITUD: 17.070342<br>LONGITUD: -96.711165<br>NUM PARADA GESCAR: <br>unnamed (1): 20<br>NUM  PARADERO: 76.0<br>SENTIDO: REGRESO<br>LATITUD: 17.070342<br>LONGITUD: -96.711165<br>NUM PARADA GESCAR: <br>unnamed (1): 20.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 76
+SENTIDO: REGRESO
+LATITUD: 17.070342
+LONGITUD: -96.711165
+NUM PARADA GESCAR: 
+unnamed (1): 20</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>76.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070342</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.711165</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>20.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.711165,17.070342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ADO</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 77<br>SENTIDO: REGRESO<br>LATITUD: 17.070884<br>LONGITUD: -96.716409<br>NUM PARADA GESCAR: <br>unnamed (1): 21<br>NUM  PARADERO: 77.0<br>SENTIDO: REGRESO<br>LATITUD: 17.070884<br>LONGITUD: -96.716409<br>NUM PARADA GESCAR: <br>unnamed (1): 21.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 77
+SENTIDO: REGRESO
+LATITUD: 17.070884
+LONGITUD: -96.716409
+NUM PARADA GESCAR: 
+unnamed (1): 21</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>77.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.070884</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.716409</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>21.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.716409,17.070884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IMSS 01</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 78<br>SENTIDO: REGRESO<br>LATITUD: 17.072096<br>LONGITUD: -96.721645<br>NUM PARADA GESCAR: <br>unnamed (1): 22<br>NUM  PARADERO: 78.0<br>SENTIDO: REGRESO<br>LATITUD: 17.072096<br>LONGITUD: -96.721645<br>NUM PARADA GESCAR: <br>unnamed (1): 22.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 78
+SENTIDO: REGRESO
+LATITUD: 17.072096
+LONGITUD: -96.721645
+NUM PARADA GESCAR: 
+unnamed (1): 22</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>78.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072096</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.721645</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>22.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.721645,17.072096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barrio de Xochimilco</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 79<br>SENTIDO: REGRESO<br>LATITUD: 17.072595<br>LONGITUD: -96.724288<br>NUM PARADA GESCAR: <br>unnamed (1): 23<br>NUM  PARADERO: 79.0<br>SENTIDO: REGRESO<br>LATITUD: 17.072595<br>LONGITUD: -96.724288<br>NUM PARADA GESCAR: <br>unnamed (1): 23.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 79
+SENTIDO: REGRESO
+LATITUD: 17.072595
+LONGITUD: -96.724288
+NUM PARADA GESCAR: 
+unnamed (1): 23</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>79.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072595</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.724288</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>23.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.724288,17.072595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Joaquin Amaro</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 80<br>SENTIDO: REGRESO<br>LATITUD: 17.072<br>LONGITUD: -96.725825<br>NUM PARADA GESCAR: <br>unnamed (1): 24<br>NUM  PARADERO: 80.0<br>SENTIDO: REGRESO<br>LATITUD: 17.072<br>LONGITUD: -96.725825<br>NUM PARADA GESCAR: <br>unnamed (1): 24.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 80
+SENTIDO: REGRESO
+LATITUD: 17.072
+LONGITUD: -96.725825
+NUM PARADA GESCAR: 
+unnamed (1): 24</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>80.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.072</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.725825</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>24.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.725825,17.072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quetzalcoatl</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 81<br>SENTIDO: REGRESO<br>LATITUD: 17.068234<br>LONGITUD: -96.726453<br>NUM PARADA GESCAR: <br>unnamed (1): 25<br>NUM  PARADERO: 81.0<br>SENTIDO: REGRESO<br>LATITUD: 17.068234<br>LONGITUD: -96.726453<br>NUM PARADA GESCAR: <br>unnamed (1): 25.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 81
+SENTIDO: REGRESO
+LATITUD: 17.068234
+LONGITUD: -96.726453
+NUM PARADA GESCAR: 
+unnamed (1): 25</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>81.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.068234</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726453</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>25.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726453,17.068234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manuel Bravo</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 82<br>SENTIDO: REGRESO<br>LATITUD: 17.065371<br>LONGITUD: -96.726902<br>NUM PARADA GESCAR: <br>unnamed (1): 26<br>NUM  PARADERO: 82.0<br>SENTIDO: REGRESO<br>LATITUD: 17.065371<br>LONGITUD: -96.726902<br>NUM PARADA GESCAR: <br>unnamed (1): 26.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 82
+SENTIDO: REGRESO
+LATITUD: 17.065371
+LONGITUD: -96.726902
+NUM PARADA GESCAR: 
+unnamed (1): 26</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>82.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.065371</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.726902</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>26.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.726902,17.065371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Independencia</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 83<br>SENTIDO: REGRESO<br>LATITUD: 17.062657<br>LONGITUD: -96.72749<br>NUM PARADA GESCAR: <br>unnamed (1): 27<br>NUM  PARADERO: 83.0<br>SENTIDO: REGRESO<br>LATITUD: 17.062657<br>LONGITUD: -96.72749<br>NUM PARADA GESCAR: <br>unnamed (1): 27.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 83
+SENTIDO: REGRESO
+LATITUD: 17.062657
+LONGITUD: -96.72749
+NUM PARADA GESCAR: 
+unnamed (1): 27</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>83.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.062657</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.72749</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>27.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.72749,17.062657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valerio Trujano</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 84<br>SENTIDO: REGRESO<br>LATITUD: 17.0607<br>LONGITUD: -96.727835<br>NUM PARADA GESCAR: <br>unnamed (1): 28<br>NUM  PARADERO: 84.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0607<br>LONGITUD: -96.727835<br>NUM PARADA GESCAR: <br>unnamed (1): 28.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 84
+SENTIDO: REGRESO
+LATITUD: 17.0607
+LONGITUD: -96.727835
+NUM PARADA GESCAR: 
+unnamed (1): 28</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>84.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0607</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.727835</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>28.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.727835,17.0607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diaz Ordaz</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 85<br>SENTIDO: REGRESO<br>LATITUD: 17.059934<br>LONGITUD: -96.728978<br>NUM PARADA GESCAR: <br>unnamed (1): 29<br>NUM  PARADERO: 85.0<br>SENTIDO: REGRESO<br>LATITUD: 17.059934<br>LONGITUD: -96.728978<br>NUM PARADA GESCAR: <br>unnamed (1): 29.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 85
+SENTIDO: REGRESO
+LATITUD: 17.059934
+LONGITUD: -96.728978
+NUM PARADA GESCAR: 
+unnamed (1): 29</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>85.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.059934</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.728978</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>29.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.728978,17.059934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Guadalupe Victoria</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 86<br>SENTIDO: REGRESO<br>LATITUD: 17.060573<br>LONGITUD: -96.732024<br>NUM PARADA GESCAR: <br>unnamed (1): 30<br>NUM  PARADERO: 86.0<br>SENTIDO: REGRESO<br>LATITUD: 17.060573<br>LONGITUD: -96.732024<br>NUM PARADA GESCAR: <br>unnamed (1): 30.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 86
+SENTIDO: REGRESO
+LATITUD: 17.060573
+LONGITUD: -96.732024
+NUM PARADA GESCAR: 
+unnamed (1): 30</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>86.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.060573</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.732024</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>30.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.732024,17.060573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. Victoria</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 87<br>SENTIDO: REGRESO<br>LATITUD: 17.060153<br>LONGITUD: -96.733017<br>NUM PARADA GESCAR: <br>unnamed (1): 31<br>NUM  PARADERO: 87.0<br>SENTIDO: REGRESO<br>LATITUD: 17.060153<br>LONGITUD: -96.733017<br>NUM PARADA GESCAR: <br>unnamed (1): 31.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 87
+SENTIDO: REGRESO
+LATITUD: 17.060153
+LONGITUD: -96.733017
+NUM PARADA GESCAR: 
+unnamed (1): 31</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>87.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.060153</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.733017</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>31.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.733017,17.060153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huzares</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 88<br>SENTIDO: REGRESO<br>LATITUD: 17.063476<br>LONGITUD: -96.735401<br>NUM PARADA GESCAR: <br>unnamed (1): 32<br>NUM  PARADERO: 88.0<br>SENTIDO: REGRESO<br>LATITUD: 17.063476<br>LONGITUD: -96.735401<br>NUM PARADA GESCAR: <br>unnamed (1): 32.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 88
+SENTIDO: REGRESO
+LATITUD: 17.063476
+LONGITUD: -96.735401
+NUM PARADA GESCAR: 
+unnamed (1): 32</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>88.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.063476</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.735401</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>32.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.735401,17.063476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Francisco I. Madero</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 89<br>SENTIDO: REGRESO<br>LATITUD: 17.06624<br>LONGITUD: -96.73542<br>NUM PARADA GESCAR: <br>unnamed (1): 33<br>NUM  PARADERO: 89.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06624<br>LONGITUD: -96.73542<br>NUM PARADA GESCAR: <br>unnamed (1): 33.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 89
+SENTIDO: REGRESO
+LATITUD: 17.06624
+LONGITUD: -96.73542
+NUM PARADA GESCAR: 
+unnamed (1): 33</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>89.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06624</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73542</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>33.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73542,17.06624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ignacio Rayon</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 90<br>SENTIDO: REGRESO<br>LATITUD: 17.06814<br>LONGITUD: -96.73547<br>NUM PARADA GESCAR: <br>unnamed (1): 34<br>NUM  PARADERO: 90.0<br>SENTIDO: REGRESO<br>LATITUD: 17.06814<br>LONGITUD: -96.73547<br>NUM PARADA GESCAR: <br>unnamed (1): 34.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 90
+SENTIDO: REGRESO
+LATITUD: 17.06814
+LONGITUD: -96.73547
+NUM PARADA GESCAR: 
+unnamed (1): 34</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>90.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.06814</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73547</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>34.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73547,17.06814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alfonso Perez Gasga</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 91<br>SENTIDO: REGRESO<br>LATITUD: 17.0709<br>LONGITUD: -96.73661<br>NUM PARADA GESCAR: <br>unnamed (1): 35<br>NUM  PARADERO: 91.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0709<br>LONGITUD: -96.73661<br>NUM PARADA GESCAR: <br>unnamed (1): 35.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 91
+SENTIDO: REGRESO
+LATITUD: 17.0709
+LONGITUD: -96.73661
+NUM PARADA GESCAR: 
+unnamed (1): 35</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>91.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0709</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73661</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>35.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73661,17.0709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montes de Oca</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 92<br>SENTIDO: REGRESO<br>LATITUD: 17.07368<br>LONGITUD: -96.73811<br>NUM PARADA GESCAR: <br>unnamed (1): 36<br>NUM  PARADERO: 92.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07368<br>LONGITUD: -96.73811<br>NUM PARADA GESCAR: <br>unnamed (1): 36.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 92
+SENTIDO: REGRESO
+LATITUD: 17.07368
+LONGITUD: -96.73811
+NUM PARADA GESCAR: 
+unnamed (1): 36</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>92.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07368</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73811</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>36.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73811,17.07368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panteon del Ex Marquesado</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 93<br>SENTIDO: REGRESO<br>LATITUD: 17.07512<br>LONGITUD: -96.73907<br>NUM PARADA GESCAR: <br>unnamed (1): 37<br>NUM  PARADERO: 93.0<br>SENTIDO: REGRESO<br>LATITUD: 17.07512<br>LONGITUD: -96.73907<br>NUM PARADA GESCAR: <br>unnamed (1): 37.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 93
+SENTIDO: REGRESO
+LATITUD: 17.07512
+LONGITUD: -96.73907
+NUM PARADA GESCAR: 
+unnamed (1): 37</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>93.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.07512</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.73907</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>37.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.73907,17.07512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. de Margaritas</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 94<br>SENTIDO: REGRESO<br>LATITUD: 17.078073<br>LONGITUD: -96.740557<br>NUM PARADA GESCAR: <br>unnamed (1): 38<br>NUM  PARADERO: 94.0<br>SENTIDO: REGRESO<br>LATITUD: 17.078073<br>LONGITUD: -96.740557<br>NUM PARADA GESCAR: <br>unnamed (1): 38.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 94
+SENTIDO: REGRESO
+LATITUD: 17.078073
+LONGITUD: -96.740557
+NUM PARADA GESCAR: 
+unnamed (1): 38</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>94.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.078073</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.740557</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>38.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.740557,17.078073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monumento a la Madre</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 95<br>SENTIDO: REGRESO<br>LATITUD: 17.0794<br>LONGITUD: -96.74129<br>NUM PARADA GESCAR: <br>unnamed (1): 39<br>NUM  PARADERO: 95.0<br>SENTIDO: REGRESO<br>LATITUD: 17.0794<br>LONGITUD: -96.74129<br>NUM PARADA GESCAR: <br>unnamed (1): 39.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 95
+SENTIDO: REGRESO
+LATITUD: 17.0794
+LONGITUD: -96.74129
+NUM PARADA GESCAR: 
+unnamed (1): 39</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>95.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.0794</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.74129</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>39.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74129,17.0794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cuahutemoc</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 96<br>SENTIDO: REGRESO<br>LATITUD: 17.082718<br>LONGITUD: -96.743629<br>NUM PARADA GESCAR: <br>unnamed (1): 40<br>NUM  PARADERO: 96.0<br>SENTIDO: REGRESO<br>LATITUD: 17.082718<br>LONGITUD: -96.743629<br>NUM PARADA GESCAR: <br>unnamed (1): 40.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 96
+SENTIDO: REGRESO
+LATITUD: 17.082718
+LONGITUD: -96.743629
+NUM PARADA GESCAR: 
+unnamed (1): 40</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>96.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.082718</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.743629</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>40.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.743629,17.082718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8 Norte</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 97<br>SENTIDO: REGRESO<br>LATITUD: 17.087391<br>LONGITUD: -96.745519<br>NUM PARADA GESCAR: <br>unnamed (1): 41<br>NUM  PARADERO: 97.0<br>SENTIDO: REGRESO<br>LATITUD: 17.087391<br>LONGITUD: -96.745519<br>NUM PARADA GESCAR: <br>unnamed (1): 41.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 97
+SENTIDO: REGRESO
+LATITUD: 17.087391
+LONGITUD: -96.745519
+NUM PARADA GESCAR: 
+unnamed (1): 41</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>97.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.087391</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.745519</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>41.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.745519,17.087391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niidxi</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 98<br>SENTIDO: REGRESO<br>LATITUD: 17.090013<br>LONGITUD: -96.746781<br>NUM PARADA GESCAR: <br>unnamed (1): 42<br>NUM  PARADERO: 98.0<br>SENTIDO: REGRESO<br>LATITUD: 17.090013<br>LONGITUD: -96.746781<br>NUM PARADA GESCAR: <br>unnamed (1): 42.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 98
+SENTIDO: REGRESO
+LATITUD: 17.090013
+LONGITUD: -96.746781
+NUM PARADA GESCAR: 
+unnamed (1): 42</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>98.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.090013</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.746781</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>42.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.746781,17.090013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zonal Santa Rosa</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 99<br>SENTIDO: REGRESO<br>LATITUD: 17.09329<br>LONGITUD: -96.74805<br>NUM PARADA GESCAR: <br>unnamed (1): 43<br>NUM  PARADERO: 99.0<br>SENTIDO: REGRESO<br>LATITUD: 17.09329<br>LONGITUD: -96.74805<br>NUM PARADA GESCAR: <br>unnamed (1): 43.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 99
+SENTIDO: REGRESO
+LATITUD: 17.09329
+LONGITUD: -96.74805
+NUM PARADA GESCAR: 
+unnamed (1): 43</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>99.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.09329</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.74805</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>43.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.74805,17.09329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bugambilias</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 100<br>SENTIDO: REGRESO<br>LATITUD: 17.09778<br>LONGITUD: -96.75001<br>NUM PARADA GESCAR: <br>unnamed (1): 44<br>NUM  PARADERO: 100.0<br>SENTIDO: REGRESO<br>LATITUD: 17.09778<br>LONGITUD: -96.75001<br>NUM PARADA GESCAR: <br>unnamed (1): 44.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 100
+SENTIDO: REGRESO
+LATITUD: 17.09778
+LONGITUD: -96.75001
+NUM PARADA GESCAR: 
+unnamed (1): 44</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>100.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.09778</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.75001</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>44.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.75001,17.09778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Abraham Castellanos</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 101<br>SENTIDO: REGRESO<br>LATITUD: 17.099211<br>LONGITUD: -96.750644<br>NUM PARADA GESCAR: <br>unnamed (1): 45<br>NUM  PARADERO: 101.0<br>SENTIDO: REGRESO<br>LATITUD: 17.099211<br>LONGITUD: -96.750644<br>NUM PARADA GESCAR: <br>unnamed (1): 45.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 101
+SENTIDO: REGRESO
+LATITUD: 17.099211
+LONGITUD: -96.750644
+NUM PARADA GESCAR: 
+unnamed (1): 45</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>101.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.099211</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.750644</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>45.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.750644,17.099211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Col. del Maestro</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 102<br>SENTIDO: REGRESO<br>LATITUD: 17.100841<br>LONGITUD: -96.751408<br>NUM PARADA GESCAR: <br>unnamed (1): 46<br>NUM  PARADERO: 102.0<br>SENTIDO: REGRESO<br>LATITUD: 17.100841<br>LONGITUD: -96.751408<br>NUM PARADA GESCAR: <br>unnamed (1): 46.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 102
+SENTIDO: REGRESO
+LATITUD: 17.100841
+LONGITUD: -96.751408
+NUM PARADA GESCAR: 
+unnamed (1): 46</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>102.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.100841</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.751408</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>46.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.751408,17.100841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamos</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 103<br>SENTIDO: REGRESO<br>LATITUD: 17.102964<br>LONGITUD: -96.754091<br>NUM PARADA GESCAR: <br>unnamed (1): 47<br>NUM  PARADERO: 103.0<br>SENTIDO: REGRESO<br>LATITUD: 17.102964<br>LONGITUD: -96.754091<br>NUM PARADA GESCAR: <br>unnamed (1): 47.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 103
+SENTIDO: REGRESO
+LATITUD: 17.102964
+LONGITUD: -96.754091
+NUM PARADA GESCAR: 
+unnamed (1): 47</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>103.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.102964</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.754091</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>47.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.754091,17.102964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Articulo 123</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 104<br>SENTIDO: REGRESO<br>LATITUD: 17.102283<br>LONGITUD: -96.756308<br>NUM PARADA GESCAR: <br>unnamed (1): 48<br>NUM  PARADERO: 104.0<br>SENTIDO: REGRESO<br>LATITUD: 17.102283<br>LONGITUD: -96.756308<br>NUM PARADA GESCAR: <br>unnamed (1): 48.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 104
+SENTIDO: REGRESO
+LATITUD: 17.102283
+LONGITUD: -96.756308
+NUM PARADA GESCAR: 
+unnamed (1): 48</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>104.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.102283</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.756308</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>48.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.756308,17.102283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Libertad</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 105<br>SENTIDO: REGRESO<br>LATITUD: 17.101309<br>LONGITUD: -96.760876<br>NUM PARADA GESCAR: <br>unnamed (1): 49<br>NUM  PARADERO: 105.0<br>SENTIDO: REGRESO<br>LATITUD: 17.101309<br>LONGITUD: -96.760876<br>NUM PARADA GESCAR: <br>unnamed (1): 49.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 105
+SENTIDO: REGRESO
+LATITUD: 17.101309
+LONGITUD: -96.760876
+NUM PARADA GESCAR: 
+unnamed (1): 49</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>105.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.101309</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.760876</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>49.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.760876,17.101309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leona Vicario</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 106<br>SENTIDO: REGRESO<br>LATITUD: 17.103446<br>LONGITUD: -96.761736<br>NUM PARADA GESCAR: <br>unnamed (1): 50<br>NUM  PARADERO: 106.0<br>SENTIDO: REGRESO<br>LATITUD: 17.103446<br>LONGITUD: -96.761736<br>NUM PARADA GESCAR: <br>unnamed (1): 50.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 106
+SENTIDO: REGRESO
+LATITUD: 17.103446
+LONGITUD: -96.761736
+NUM PARADA GESCAR: 
+unnamed (1): 50</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>106.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.103446</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.761736</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>50.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.761736,17.103446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Unidad Deportiva San Jacinto</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 107<br>SENTIDO: REGRESO<br>LATITUD: 17.106723<br>LONGITUD: -96.762977<br>NUM PARADA GESCAR: <br>unnamed (1): 51<br>NUM  PARADERO: 107.0<br>SENTIDO: REGRESO<br>LATITUD: 17.106723<br>LONGITUD: -96.762977<br>NUM PARADA GESCAR: <br>unnamed (1): 51.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 107
+SENTIDO: REGRESO
+LATITUD: 17.106723
+LONGITUD: -96.762977
+NUM PARADA GESCAR: 
+unnamed (1): 51</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>107.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.106723</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.762977</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>51.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.762977,17.106723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priv. Rio Atoyac</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 108<br>SENTIDO: REGRESO<br>LATITUD: 17.109045<br>LONGITUD: -96.763913<br>NUM PARADA GESCAR: <br>unnamed (1): 52<br>NUM  PARADERO: 108.0<br>SENTIDO: REGRESO<br>LATITUD: 17.109045<br>LONGITUD: -96.763913<br>NUM PARADA GESCAR: <br>unnamed (1): 52.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 108
+SENTIDO: REGRESO
+LATITUD: 17.109045
+LONGITUD: -96.763913
+NUM PARADA GESCAR: 
+unnamed (1): 52</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>108.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.109045</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.763913</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>52.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.763913,17.109045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base San Jacinto Amilpas2</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 109<br>SENTIDO: REGRESO<br>LATITUD: 17.110983<br>LONGITUD: -96.76614<br>NUM PARADA GESCAR: <br>unnamed (1): 53<br>NUM  PARADERO: 109.0<br>SENTIDO: REGRESO<br>LATITUD: 17.110983<br>LONGITUD: -96.76614<br>NUM PARADA GESCAR: <br>unnamed (1): 53.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 109
+SENTIDO: REGRESO
+LATITUD: 17.110983
+LONGITUD: -96.76614
+NUM PARADA GESCAR: 
+unnamed (1): 53</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>109.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.110983</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.76614</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>53.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76614,17.110983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro de Salud 2</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 110<br>SENTIDO: REGRESO<br>LATITUD: 17.1101461<br>LONGITUD: -96.7684832<br>NUM PARADA GESCAR: <br>unnamed (1): 54<br>NUM  PARADERO: 110.0<br>SENTIDO: REGRESO<br>LATITUD: 17.1101461<br>LONGITUD: -96.7684832<br>NUM PARADA GESCAR: <br>unnamed (1): 54.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 110
+SENTIDO: REGRESO
+LATITUD: 17.1101461
+LONGITUD: -96.7684832
+NUM PARADA GESCAR: 
+unnamed (1): 54</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>110.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.1101461</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.7684832</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>54.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.768483,17.110146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Base Yahuiche</name>
+        <description><![CDATA[descripción: NUM  PARADERO: 111<br>SENTIDO: REGRESO<br>LATITUD: 17.108565<br>LONGITUD: -96.76912<br>NUM PARADA GESCAR: <br>unnamed (1): 55<br>NUM  PARADERO: 111.0<br>SENTIDO: REGRESO<br>LATITUD: 17.108565<br>LONGITUD: -96.76912<br>NUM PARADA GESCAR: <br>unnamed (1): 55.0]]></description>
+        <styleUrl>#icon-1532-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="descripción">
+            <value>NUM  PARADERO: 111
+SENTIDO: REGRESO
+LATITUD: 17.108565
+LONGITUD: -96.76912
+NUM PARADA GESCAR: 
+unnamed (1): 55</value>
+          </Data>
+          <Data name="NUM  PARADERO">
+            <value>111.0</value>
+          </Data>
+          <Data name="SENTIDO">
+            <value>REGRESO</value>
+          </Data>
+          <Data name="LATITUD">
+            <value>17.108565</value>
+          </Data>
+          <Data name="LONGITUD">
+            <value>-96.76912</value>
+          </Data>
+          <Data name="NUM PARADA GESCAR">
+            <value/>
+          </Data>
+          <Data name="unnamed (1)">
+            <value>55.0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -96.76912,17.108565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
