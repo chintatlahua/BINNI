@@ -33,14 +33,17 @@ body{height:100vh;height:100dvh;font-family:"Atkinson Hyperlegible",system-ui,-a
   touch-action:manipulation}
 /* Pantallas medianas y grandes (iPad, tableta Android, MacBook, PC): panel a la izquierda y mapa a la derecha */
 .app{display:grid;height:100%;grid-template-columns:clamp(330px,34vw,440px) 1fr}
-#map{width:100%;height:100%;min-height:200px;order:2}
-.panel{order:1;background:var(--panel);overflow:auto;overscroll-behavior:contain;padding:14px 16px 24px;border-right:1px solid var(--line)}
+#map{width:100%;height:100%;min-height:200px;order:2;position:relative;z-index:0}
+.panel{order:1;position:relative;z-index:10;background:var(--panel);overflow:auto;overscroll-behavior:contain;padding:14px 16px 24px;border-right:1px solid var(--line)}
 .grab{display:none}
+/* Pantallas muy grandes (iMac 24", Studio Display, 4K/5K): todo un poco mayor y panel más ancho */
+@media (min-width:1800px){ html{font-size:18px} .app{grid-template-columns:clamp(440px,24vw,620px) 1fr} }
+@media (min-width:2400px){ html{font-size:20px} }
 /* Celular en vertical (iPhone, Android): mapa a pantalla completa y panel como hoja que se desliza */
 @media (max-width:699px){
   .app{position:relative;display:block}
-  #map{position:absolute;inset:0;min-height:0}
-  .panel{position:absolute;left:0;right:0;bottom:0;height:46%;border-right:0;border-radius:18px 18px 0 0;
+  #map{position:absolute;inset:0;min-height:0;z-index:0}
+  .panel{position:absolute;z-index:10;left:0;right:0;bottom:0;height:46%;border-right:0;border-radius:18px 18px 0 0;
     box-shadow:0 -6px 24px rgba(0,0,0,.22);padding-top:0;transition:height .22s ease}
   .panel.drag{transition:none}
   .grab{display:block;position:sticky;top:0;z-index:5;margin:0 -16px 8px;padding:10px 0 8px;background:var(--panel);
@@ -51,11 +54,10 @@ body{height:100vh;height:100dvh;font-family:"Atkinson Hyperlegible",system-ui,-a
   .legend{max-height:3.6em;overflow:auto}
   .panel{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
 }
-@media (max-width:380px){ .when{grid-template-columns:1fr 1fr} .when #btnNow{grid-column:1/-1} }
 /* Pantallas táctiles: botones y campos cómodos para el dedo (y sin zoom automático en iPhone) */
 @media (pointer:coarse){
   button,.btn,.links a{min-height:44px}
-  input,select{min-height:44px;font-size:16px}
+  input,select{min-height:44px;font-size:max(16px,1rem)}
   .place h2 .del,.place h2 .save{min-height:36px}
   .opt button.pick,.sr button{min-height:40px}
 }
@@ -67,7 +69,7 @@ button,.btn{font:inherit;font-weight:700;border:1.5px solid var(--wine);backgrou
 button.alt,.btn.alt{background:transparent;color:var(--wine)}
 button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--wine);outline-offset:2px}
 label.rad{display:flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted)}
-input[type=number]{font:inherit;width:72px;padding:7px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+input[type=number]{font:inherit;font-size:1rem;width:72px;padding:7px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 .place{border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:10px}
 .place h2{font-size:1rem;margin:0 0 6px}
 .best{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
@@ -82,9 +84,10 @@ ul.more{margin:6px 0 0;padding-left:18px;font-size:.9rem;color:var(--muted)}
 .trip{border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:12px}
 .trip h2{font-size:1rem;margin:0 0 8px}
 .trip label{display:block;font-size:.85rem;color:var(--muted);margin-bottom:8px}
-.trip select{display:block;width:100%;font:inherit;padding:9px;margin-top:3px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
-.when{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;align-items:end;margin-bottom:10px}
-.when label{margin:0}.when input[type=time]{display:block;width:100%;font:inherit;padding:9px;margin-top:3px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.trip select{display:block;width:100%;font:inherit;font-size:1rem;padding:9px;margin-top:3px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.when{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;align-items:end;margin-bottom:10px}
+.when #btnNow{grid-column:1/-1}
+.when label{margin:0}.when input[type=time]{display:block;width:100%;font:inherit;font-size:1rem;padding:9px;margin-top:3px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 #btnAll{margin-top:8px}
 .lvl{font-size:.8rem;font-weight:700;padding:3px 8px;border-radius:99px;margin-right:6px}
 .lvl.ok{background:var(--ok-bg);color:var(--ok)}.lvl.warn{background:#fff1cc;color:#7a5200}.lvl.bad{background:var(--no-bg);color:var(--no)}
@@ -101,7 +104,7 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
 .sr{display:flex;gap:6px;margin-bottom:6px}
 .sr .go{flex:1;text-align:left;font-weight:400}
 .sr button{padding:6px 10px;font-size:.85rem}
-.trip input[type=search]{display:block;width:100%;font:inherit;padding:9px;margin-top:3px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.trip input[type=search]{display:block;width:100%;font:inherit;font-size:1rem;padding:9px;margin-top:3px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 .links{display:flex;flex-direction:column;gap:8px;margin:14px 0 0}
 .links a{display:block;text-align:center;text-decoration:none;font-weight:700;color:var(--wine);border:1.5px solid var(--wine);border-radius:8px;padding:9px 12px}
 .links a:focus-visible{outline:3px solid var(--wine);outline-offset:2px}
@@ -613,6 +616,7 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
       $("trip").innerHTML=html;
       var codes={}; opts.forEach(function(r){r.legs.forEach(function(l){codes[l.route]=1})});
       showOnly(codes); setSheet("half"); drawOpt();
+      setTimeout(function(){ panelEl.scrollTo({top:Math.max(0,$("trip").offsetTop-60),behavior:"smooth"}) },260);
     },20);
   });
   $("trip").addEventListener("click",function(e){
