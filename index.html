@@ -409,6 +409,28 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     }
     return out;
   }
+  // ---------- Tráfico en vivo (TomTom) ----------
+  var TOMTOM_KEY="EpkDjZM38vMvjowAozoJlc9UBaeRaZ5F", BUS_BASE=BUS, TRAF_BASE=0.75, trafCache=null;
+  // Devuelve {f:factor, txt:texto} o null. Si algo falla, la app sigue con la velocidad fija.
+  function trafico(a,b,done){
+    if(!TOMTOM_KEY||TOMTOM_KEY.indexOf("PEGA")===0||!navigator.onLine) return done(null);
+    if(trafCache && Date.now()-trafCache.t<300000 && trafCache.k===[a.lat,a.lng,b.lat,b.lng].join()) return done(trafCache.v);
+    var pts=[[a.lat,a.lng],[(a.lat+b.lat)/2,(a.lng+b.lng)/2],[b.lat,b.lng]], got=[], pend=pts.length;
+    pts.forEach(function(p){
+      fetch("https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/10/json?point="+p[0]+","+p[1]+"&unit=KMPH&key="+TOMTOM_KEY)
+        .then(function(r){return r.json()})
+        .then(function(j){var f=j.flowSegmentData; if(f&&f.freeFlowSpeed>0) got.push(f.currentSpeed/f.freeFlowSpeed)})
+        .catch(function(){})
+        .then(function(){
+          if(--pend) return;
+          if(!got.length) return done(null);
+          var ratio=got.reduce(function(x,y){return x+y},0)/got.length;
+          var f=Math.max(0.6,Math.min(1.25,ratio/TRAF_BASE));
+          var txt=f<0.9?"Tráfico pesado ahora: tiempos aumentados":(f>1.1?"Tráfico ligero ahora: tiempos reducidos":"Tráfico normal ahora");
+          var v={f:f,txt:txt}; trafCache={t:Date.now(),k:[a.lat,a.lng,b.lat,b.lng].join(),v:v}; done(v);
+        });
+    });
+  }
   function buildGraph(){
     var nodes=[], grid={};
     routes.forEach(function(r){ r.dirs.forEach(function(d,di){
@@ -605,12 +627,15 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     if(!routes.length){$("trip").textContent="Aún no hay rutas cargadas.";return}
     var tv=($("tm").value||"00:00").split(":"), ctx={t0:(+tv[0])*60+(+tv[1]),day:+$("day").value,timed:true};
     $("trip").textContent="Calculando…";
+    var nowD=new Date(), nowMin=nowD.getHours()*60+nowD.getMinutes(), esAhora=(ctx.day===nowD.getDay() && Math.abs(ctx.t0-nowMin)<=30);
+    (esAhora?trafico:function(x,y,cb){cb(null)})(a,b,function(tr){
+    BUS=BUS_BASE*(tr?tr.f:1);
     setTimeout(function(){
       if(!G||G.count!==routes.length) buildGraph();
       var opts=candidates(a,b,ctx);
       if(!opts.length){$("trip").textContent="No encontré una combinación de rutas con paradas a "+MAXWALK+" m o menos de ambos puntos.";return}
       curOpts=opts; curO=a; curD=b; curSel=0;
-      var direct=dist(a.lat,a.lng,b.lat,b.lng), html='<p class="meta">Salida '+fmtT(ctx.t0)+' · ordenadas por viabilidad (tiempo y riesgo de horario). Costo estimado: supone que cada abordaje se cobra; no está confirmado si el transbordo es gratis.</p>'+
+      var direct=dist(a.lat,a.lng,b.lat,b.lng), html='<p class="meta">Salida '+fmtT(ctx.t0)+(tr?' · '+tr.txt:'')+' · ordenadas por viabilidad (tiempo y riesgo de horario). Costo estimado: supone que cada abordaje se cobra; no está confirmado si el transbordo es gratis.</p>'+
         (opts[0].a.lvl==="bad"?'<p class="meta"><strong>A esa hora ninguna combinación está en servicio.</strong> Prueba otra hora; RC-14 y RC-15 operan hasta las 03:00 viernes y sábado.</p>':'')+opts.map(card).join("");
       if(direct<=1000) html+='<p class="meta">Caminando directo: ~'+fmt(direct)+' en línea recta (~'+Math.round(walkMin(direct))+' min).</p>';
       $("trip").innerHTML=html;
@@ -618,6 +643,7 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
       showOnly(codes); setSheet("half"); drawOpt();
       setTimeout(function(){ panelEl.scrollTo({top:Math.max(0,$("trip").offsetTop-60),behavior:"smooth"}) },260);
     },20);
+    });
   });
   $("trip").addEventListener("click",function(e){
     var p=e.target.closest(".pick"); if(!p) return;
