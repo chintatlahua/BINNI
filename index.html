@@ -26,6 +26,15 @@
     --wine:#e0698d; --wine-ink:#1a1114; --ok:#6fd1ab; --ok-bg:#16332a; --no:#ff9d7d; --no-bg:#3a1f16;
   }
 }
+/* Skins de color: se eligen en el panel y se guardan en este dispositivo */
+html:root[data-skin="oceano"]{--bg:#f3f8fa;--panel:#ffffff;--ink:#10242b;--muted:#566b73;--line:#d8e6eb;--wine:#0b6e8a;--wine-ink:#ffffff;--ok:#1f7a5c;--ok-bg:#e3f4ec;--no:#9a3b1f;--no-bg:#fbe9e2}
+html:root[data-skin="bosque"]{--bg:#f4f8f3;--panel:#ffffff;--ink:#17261b;--muted:#5a6b5d;--line:#dbe7da;--wine:#2f7d4a;--wine-ink:#ffffff;--ok:#1f7a5c;--ok-bg:#e3f4ec;--no:#9a3b1f;--no-bg:#fbe9e2}
+html:root[data-skin="dorado"]{--bg:#fbf8f1;--panel:#ffffff;--ink:#2a2112;--muted:#6e6450;--line:#eadfc6;--wine:#8f6400;--wine-ink:#ffffff;--ok:#1f7a5c;--ok-bg:#e3f4ec;--no:#9a3b1f;--no-bg:#fbe9e2}
+html:root[data-skin="noche"]{--bg:#0f1620;--panel:#17212e;--ink:#e8eef5;--muted:#9fb0c2;--line:#2a384a;--wine:#5db7e8;--wine-ink:#0f1620;--ok:#6fd1ab;--ok-bg:#16332a;--no:#ff9d7d;--no-bg:#3a1f16}
+html:root[data-skin="violeta"]{--bg:#17111f;--panel:#20182b;--ink:#f0eaf7;--muted:#b3a6c4;--line:#33284a;--wine:#b99cf2;--wine-ink:#17111f;--ok:#6fd1ab;--ok-bg:#16332a;--no:#ff9d7d;--no-bg:#3a1f16}
+html[data-skin="noche"] .lvl.warn,html[data-skin="violeta"] .lvl.warn{background:#4a3a10;color:#ffd77a}
+.skinbar{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:.9rem;color:var(--muted)}
+.skinbar select{font:inherit;font-size:.95rem;padding:6px 8px;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;overscroll-behavior:none;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{height:100vh;height:100dvh;font-family:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);
@@ -122,6 +131,16 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
   <section class="panel" id="panel">
     <div class="grab" id="grab" role="button" tabindex="0" aria-label="Subir o bajar el panel"><span></span><b id="grabTxt">Desliza para ver más</b></div>
     <h1>Paradas BinniBus cerca de mí</h1>
+    <label class="skinbar">Color
+      <select id="skin">
+        <option value="">Automático (vino)</option>
+        <option value="oceano">Océano</option>
+        <option value="bosque">Bosque</option>
+        <option value="dorado">Dorado</option>
+        <option value="noche">Noche azul</option>
+        <option value="violeta">Violeta oscuro</option>
+      </select>
+    </label>
     <p class="sub">Parada más cercana a tus lugares, con distancia en línea recta.</p>
     <div class="bar">
       <button id="btnLoc" type="button">Usar mi ubicación</button>
@@ -157,7 +176,9 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
       </label>
       <button id="btnRoute" type="button">Calcular 3 mejores rutas</button>
       <button id="btnAll" type="button" class="alt" hidden>Mostrar todas las rutas</button>
+      <button id="btnSaveTrip" type="button" class="alt">Guardar este viaje</button>
       <div id="trip" role="status"></div>
+      <div id="savedTrips"></div>
     </div>
     <div class="legend" id="legend"></div>
     <div id="results"></div>
@@ -195,9 +216,16 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
   var COLORS = ["#8c2748","#0f7c8a","#d98a00","#4b5fc0","#2f8f4e","#b04a9c","#7a5230","#c4442e","#3a7ca5","#6b7a1f"];
 
   var map = L.map("map",{zoomControl:true,attributionControl:false}).setView([17.04,-96.73],12);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,
-    attribution:"&copy; OpenStreetMap"}).addTo(map);
-  L.control.attribution({position:"topright",prefix:false}).addTo(map);
+  var BASES={
+    "Estándar":L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:"&copy; OpenStreetMap"}),
+    "Relieve":L.tileLayer("https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",{maxZoom:17,subdomains:"abc",attribution:"&copy; OpenStreetMap, SRTM | &copy; OpenTopoMap"}),
+    "Satélite":L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",{maxZoom:19,attribution:"Imágenes &copy; Esri, Maxar, Earthstar Geographics"})
+  };
+  var baseSel="Estándar"; try{var bs=localStorage.getItem("binni_base"); if(bs&&BASES[bs]) baseSel=bs}catch(e){}
+  BASES[baseSel].addTo(map);
+  L.control.layers(BASES,null,{position:"topright",collapsed:true}).addTo(map);
+  map.on("baselayerchange",function(e){try{localStorage.setItem("binni_base",e.name)}catch(x){}});
+  L.control.attribution({position:"bottomright",prefix:false}).addTo(map);
 
   var routes = [];      // {code,name,color,stops:[{name,lat,lng}],lines:[[lat,lng]...]}
   var allLayer = L.layerGroup().addTo(map), placeLayer = L.layerGroup().addTo(map);
@@ -645,6 +673,59 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     },20);
     });
   });
+  // ---------- Skin de color ----------
+  (function(){
+    var BAR={"":null,oceano:"#0b6e8a",bosque:"#2f7d4a",dorado:"#8f6400",noche:"#17212e",violeta:"#20182b"};
+    function aplica(v){
+      if(v&&BAR[v]){document.documentElement.setAttribute("data-skin",v)} else {v="";document.documentElement.removeAttribute("data-skin")}
+      document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){ if(!m.dataset.o) m.dataset.o=m.content; m.content=BAR[v]||m.dataset.o });
+      $("skin").value=v;
+    }
+    var g=""; try{g=localStorage.getItem("binni_skin")||""}catch(e){}
+    aplica(g);
+    $("skin").addEventListener("change",function(){var v=$("skin").value; aplica(v); try{localStorage.setItem("binni_skin",v)}catch(e){}});
+  })();
+
+  // ---------- Viajes guardados (solo en este dispositivo) ----------
+  var TRIPS=[];
+  try{ TRIPS=JSON.parse(localStorage.getItem("binni_trips")||"[]") }catch(e){ TRIPS=[] }
+  function saveTrips(){ try{ localStorage.setItem("binni_trips",JSON.stringify(TRIPS)) }catch(e){} drawTrips() }
+  function drawTrips(){
+    var el=$("savedTrips"); if(!el) return;
+    if(!TRIPS.length){el.innerHTML="";return}
+    el.innerHTML='<h3 style="font-size:1rem;margin:14px 0 6px">Mis viajes guardados</h3>'+TRIPS.map(function(t,i){
+      return '<div class="place"><strong>'+esc(t.a.name)+' → '+esc(t.b.name)+'</strong>'+
+        '<p class="meta">Guardado: '+["dom","lun","mar","mié","jue","vie","sáb"][t.day]+' '+esc(t.tm)+'</p>'+
+        '<button type="button" class="tripGo" data-i="'+i+'" data-now="1">Calcular ahora</button> '+
+        '<button type="button" class="alt tripGo" data-i="'+i+'">A su hora guardada</button> '+
+        '<button type="button" class="alt tripDel" data-i="'+i+'">Borrar</button></div>';
+    }).join("");
+  }
+  function ensurePlace(q){
+    var f=PLACES.filter(function(p){return Math.abs(p.lat-q.lat)<1e-5&&Math.abs(p.lng-q.lng)<1e-5})[0];
+    if(!f){f={id:"p"+Date.now()+Math.floor(Math.random()*1000),name:q.name,lat:q.lat,lng:q.lng}; PLACES.push(f); saveHash(); render()}
+    return f;
+  }
+  $("btnSaveTrip").addEventListener("click",function(){
+    var L1=allPlaces(), a=L1.filter(function(p){return p.id===$("from").value})[0], b=L1.filter(function(p){return p.id===$("to").value})[0];
+    if(!a||!b||a===b){$("trip").textContent="Elige dos lugares distintos para guardar el viaje.";return}
+    if(a.id==="yo"||b.id==="yo"){$("trip").textContent="Primero guarda “Mi ubicación” con un nombre (casa, trabajo…) para poder usarla en un viaje guardado.";return}
+    if(TRIPS.some(function(t){return Math.abs(t.a.lat-a.lat)<1e-5&&Math.abs(t.a.lng-a.lng)<1e-5&&Math.abs(t.b.lat-b.lat)<1e-5&&Math.abs(t.b.lng-b.lng)<1e-5&&t.tm===$("tm").value&&t.day===+$("day").value})) {$("trip").textContent="Ese viaje ya está guardado.";return}
+    TRIPS.push({a:{name:a.name,lat:a.lat,lng:a.lng},b:{name:b.name,lat:b.lat,lng:b.lng},day:+$("day").value,tm:$("tm").value||"00:00"});
+    saveTrips(); $("trip").textContent="Viaje guardado en este dispositivo.";
+  });
+  $("savedTrips").addEventListener("click",function(e){
+    var g=e.target.closest(".tripGo"), d=e.target.closest(".tripDel");
+    if(d){TRIPS.splice(+d.getAttribute("data-i"),1); saveTrips(); return}
+    if(!g) return;
+    var t=TRIPS[+g.getAttribute("data-i")]; if(!t) return;
+    var a=ensurePlace(t.a), b=ensurePlace(t.b);
+    $("from").value=a.id; $("to").value=b.id;
+    if(g.getAttribute("data-now")) setNow(); else {$("day").value=String(t.day); $("tm").value=t.tm}
+    $("btnRoute").click();
+  });
+  drawTrips();
+
   $("trip").addEventListener("click",function(e){
     var p=e.target.closest(".pick"); if(!p) return;
     curSel=+p.getAttribute("data-i"); setSheet("peek"); drawOpt();
