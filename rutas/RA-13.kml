@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Ruta RA13 Waxin (TENTATIVA): Yuroo Parque del Amor Ladxidó’ – San Luis Beltrán</name>
+  <description>Trazo tentativo armado con tramos de RA-03, RC-11 y RA-11. Llega hasta Base Col. Jardín; faltan por ubicar Hortencias, Camino Real, Reforma, Revolución, Niño Perdido y Base San Luis Beltrán. Paradas marcadas "aproximada" fueron interpoladas.</description>
+  <Folder>
+    <name>RECORRIDO DE IDA</name>
+    <Placemark>
+      <name>RECORRIDO DE IDA</name>
+      <LineString><tessellate>1</tessellate><coordinates>
+        -96.729251,17.050539,0
+        -96.728918,17.050092,0
+        -96.728730,17.050107,0
+        -96.728671,17.050046,0
+        -96.727577,17.050369,0
+        -96.726944,17.050564,0
+        -96.726332,17.050728,0
+        -96.725866,17.050830,0
+        -96.725206,17.051010,0
+        -96.724122,17.051297,0
+        -96.723291,17.051518,0
+        -96.722636,17.051682,0
+        -96.721006,17.052087,0
+        -96.719638,17.052441,0
+        -96.718570,17.052702,0
+        -96.718125,17.052841,0
+        -96.717299,17.053025,0
+        -96.716516,17.053190,0
+        -96.715502,17.053431,0
+        -96.715226,17.053495,0
+        -96.714303,17.053721,0
+        -96.713826,17.053834,0
+        -96.713311,17.054018,0
+        -96.712952,17.054182,0
+        -96.712995,17.054572,0
+        -96.712995,17.054982,0
+        -96.712944,17.055534,0
+        -96.712936,17.055609,0
+        -96.712925,17.055608,0
+        -96.712866,17.056186,0
+        -96.712837,17.056920,0
+        -96.712724,17.058046,0
+        -96.712740,17.058538,0
+        -96.713035,17.059328,0
+        -96.713518,17.060471,0
+        -96.713604,17.060822,0
+        -96.713634,17.061107,0
+        -96.713730,17.061369,0
+        -96.713896,17.061571,0
+        -96.714006,17.061787,0
+        -96.714044,17.062258,0
+        -96.714041,17.062669,0
+        -96.714098,17.063171,0
+        -96.714127,17.063864,0
+        -96.714173,17.064589,0
+        -96.714167,17.065192,0
+        -96.714124,17.065266,0
+        -96.714130,17.065474,0
+        -96.714140,17.065605,0
+        -96.714130,17.065928,0
+        -96.714063,17.066579,0
+        -96.713985,17.067233,0
+        -96.713843,17.068287,0
+        -96.713803,17.068523,0
+        -96.713770,17.069100,0
+        -96.713599,17.070448,0
+        -96.713529,17.070858,0
+        -96.713414,17.071530,0
+        -96.713328,17.072394,0
+        -96.713258,17.072861,0
+        -96.713124,17.073861,0
+        -96.713035,17.074417,0
+        -96.712920,17.075228,0
+        -96.712789,17.076035,0
+        -96.712665,17.077079,0
+        -96.712472,17.078302,0
+        -96.712373,17.079343,0
+        -96.712247,17.079899,0
+        -96.712225,17.080453,0
+        -96.712086,17.081471,0
+        -96.712032,17.081801,0
+        -96.711928,17.082363,0
+        -96.711861,17.083250,0
+        -96.711818,17.083458,0
+        -96.711595,17.083804,0
+        -96.711319,17.084327,0
+        -96.711209,17.084829,0
+        -96.711217,17.085147,0
+        -96.711351,17.085565,0
+        -96.711545,17.085917,0
+        -96.711782,17.086190,0
+        -96.711739,17.086321,0
+        -96.711820,17.086444,0
+        -96.711790,17.086506,0
+        -96.711275,17.087344,0
+        -96.710809,17.088174,0
+        -96.710490,17.088710,0
+        -96.710267,17.088962,0
+        -96.709916,17.089354,0
+        -96.709881,17.089480,0
+        -96.709594,17.090038,0
+        -96.709323,17.090626,0
+        -96.708778,17.091695,0
+        -96.708381,17.092456,0
+        -96.707898,17.093330,0
+        -96.707520,17.094066,0
+        -96.707134,17.094781,0
+        -96.707011,17.094712,0
+        -96.706198,17.094294,0
+        -96.705431,17.093928,0
+        -96.704522,17.093510,0
+        -96.703210,17.092879,0
+        -96.703116,17.092820,0
+        -96.703033,17.092915,0
+        -96.702875,17.092971,0
+        -96.702730,17.092976,0
+        -96.701971,17.092797,0
+        -96.701437,17.092600,0
+        -96.701222,17.092579,0
+        -96.700761,17.092666,0
+        -96.700592,17.092707,0
+        -96.699809,17.093410,0
+        -96.699329,17.093894,0
+        -96.698994,17.093897,0
+        -96.698444,17.093866,0
+        -96.698060,17.093871,0
+        -96.697928,17.093902,0
+      </coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Yuroo Parque del Amor Ladxidó'</name>
+      <Point><coordinates>-96.729250,17.050540,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CFE Periférico</name>
+      <Point><coordinates>-96.725120,17.051020,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Xicoténcatl</name>
+      <Point><coordinates>-96.722760,17.051560,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Av. Eduardo Mata</name>
+      <Point><coordinates>-96.720050,17.052270,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chedraui Periférico</name>
+      <Point><coordinates>-96.716960,17.053030,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Luis G. Urbina</name>
+      <Point><coordinates>-96.712950,17.055610,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Miguel Hidalgo</name>
+      <Point><coordinates>-96.712660,17.058270,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Prol. Calzada de la República</name>
+      <Point><coordinates>-96.713100,17.059680,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Panteón General</name>
+      <Point><coordinates>-96.714000,17.062770,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Esc. Sec. Téc. N° 6</name>
+      <Point><coordinates>-96.714130,17.066310,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Priv. Alianza</name>
+      <Point><coordinates>-96.713830,17.067980,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Heroico Colegio Militar</name>
+      <Point><coordinates>-96.713440,17.071040,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Almendros</name>
+      <Point><coordinates>-96.713210,17.072750,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Belisario Domínguez</name>
+      <Point><coordinates>-96.712960,17.074860,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sabinos</name>
+      <Point><coordinates>-96.712620,17.076940,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Av. Fuerza Aérea Mexicana</name>
+      <Point><coordinates>-96.712160,17.080280,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Módulo Azul</name>
+      <Point><coordinates>-96.711500,17.085940,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Volcán de Fuego</name>
+      <Point><coordinates>-96.709910,17.089270,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pico de Orizaba</name>
+      <Point><coordinates>-96.708050,17.092940,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cofre de Perote</name>
+      <Point><coordinates>-96.706500,17.094430,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tacaná</name>
+      <Point><coordinates>-96.703670,17.093050,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Laureles</name>
+      <Point><coordinates>-96.700230,17.092930,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Base Col. Jardín</name>
+      <Point><coordinates>-96.697930,17.093910,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+  <Folder>
+    <name>RECORRIDO DE REGRESO</name>
+    <Placemark>
+      <name>RECORRIDO DE REGRESO</name>
+      <LineString><tessellate>1</tessellate><coordinates>
+        -96.697932,17.093919,0
+        -96.698102,17.093882,0
+        -96.699002,17.093902,0
+        -96.699329,17.093894,0
+        -96.699446,17.093799,0
+        -96.700078,17.093167,0
+        -96.700467,17.092799,0
+        -96.700582,17.092716,0
+        -96.700805,17.092665,0
+        -96.701222,17.092579,0
+        -96.701455,17.092612,0
+        -96.701890,17.092784,0
+        -96.702433,17.092916,0
+        -96.702838,17.092997,0
+        -96.703080,17.092892,0
+        -96.703122,17.092848,0
+        -96.703744,17.093130,0
+        -96.704502,17.093531,0
+        -96.705327,17.093870,0
+        -96.705892,17.094150,0
+        -96.706431,17.094413,0
+        -96.707145,17.094786,0
+        -96.707576,17.094022,0
+        -96.707854,17.093516,0
+        -96.707962,17.093226,0
+        -96.708241,17.092745,0
+        -96.708480,17.092313,0
+        -96.708810,17.091662,0
+        -96.709136,17.091039,0
+        -96.709466,17.090373,0
+        -96.709782,17.089664,0
+        -96.709904,17.089452,0
+        -96.710015,17.089411,0
+        -96.710386,17.089001,0
+        -96.710579,17.088762,0
+        -96.710730,17.088513,0
+        -96.711135,17.087822,0
+        -96.711936,17.086494,0
+        -96.712132,17.086460,0
+        -96.712655,17.086599,0
+        -96.713238,17.086849,0
+        -96.713475,17.086949,0
+        -96.713761,17.087136,0
+        -96.714119,17.087338,0
+        -96.714440,17.087497,0
+        -96.714798,17.087682,0
+        -96.715251,17.087969,0
+        -96.715999,17.088379,0
+        -96.716534,17.088678,0
+        -96.716891,17.088877,0
+        -96.717019,17.089034,0
+        -96.717247,17.089101,0
+        -96.717354,17.088724,0
+        -96.717686,17.087633,0
+        -96.717897,17.086924,0
+        -96.718149,17.086312,0
+        -96.718302,17.085850,0
+        -96.718482,17.085178,0
+        -96.718687,17.084563,0
+        -96.718938,17.083827,0
+        -96.719056,17.083453,0
+        -96.719050,17.083132,0
+        -96.719143,17.082585,0
+        -96.719103,17.082176,0
+        -96.719036,17.082035,0
+        -96.718922,17.081920,0
+        -96.718948,17.081636,0
+        -96.719080,17.080710,0
+        -96.719163,17.080006,0
+        -96.719253,17.079260,0
+        -96.719396,17.079049,0
+        -96.719383,17.078951,0
+        -96.719296,17.078885,0
+        -96.719386,17.078094,0
+        -96.719488,17.077193,0
+        -96.719530,17.076802,0
+        -96.719571,17.076607,0
+        -96.719623,17.076175,0
+        -96.719616,17.076176,0
+        -96.719649,17.075763,0
+        -96.719667,17.075224,0
+        -96.719491,17.074735,0
+        -96.719538,17.074604,0
+        -96.719550,17.074453,0
+        -96.719432,17.074310,0
+        -96.719515,17.073261,0
+        -96.719572,17.072338,0
+        -96.719637,17.071639,0
+        -96.718813,17.071482,0
+        -96.718067,17.071310,0
+        -96.717667,17.071088,0
+        -96.717182,17.070984,0
+        -96.716659,17.070858,0
+        -96.715796,17.070605,0
+        -96.714652,17.070444,0
+        -96.713700,17.070361,0
+        -96.713789,17.069556,0
+        -96.713872,17.068969,0
+        -96.713942,17.068205,0
+        -96.714135,17.066946,0
+        -96.714293,17.065592,0
+        -96.714379,17.065405,0
+        -96.714320,17.065153,0
+        -96.714245,17.064284,0
+        -96.714105,17.062018,0
+        -96.714038,17.061443,0
+        -96.714014,17.061274,0
+        -96.713625,17.060333,0
+        -96.713038,17.058822,0
+        -96.712890,17.058443,0
+        -96.712965,17.057225,0
+        -96.713030,17.056602,0
+        -96.713081,17.056271,0
+        -96.713121,17.055902,0
+        -96.713121,17.055902,0
+        -96.713138,17.055765,0
+        -96.713224,17.054996,0
+        -96.713238,17.054752,0
+        -96.713308,17.054578,0
+        -96.713506,17.054327,0
+        -96.713592,17.054142,0
+        -96.714225,17.053927,0
+        -96.715389,17.053634,0
+        -96.716312,17.053409,0
+        -96.717680,17.053091,0
+        -96.719284,17.052701,0
+        -96.720813,17.052296,0
+        -96.722561,17.051865,0
+        -96.723996,17.051483,0
+        -96.724481,17.051366,0
+        -96.725144,17.051194,0
+        -96.725819,17.051088,0
+        -96.726485,17.050909,0
+        -96.727053,17.050704,0
+        -96.727590,17.050663,0
+        -96.727914,17.050703,0
+        -96.728182,17.050766,0
+        -96.728499,17.050986,0
+        -96.728783,17.051325,0
+        -96.729041,17.051956,0
+        -96.729529,17.053798,0
+        -96.729990,17.055131,0
+        -96.730130,17.055100,0
+        -96.730076,17.054772,0
+        -96.729862,17.054116,0
+        -96.729529,17.053038,0
+        -96.729390,17.052720,0
+        -96.729379,17.052454,0
+        -96.729325,17.051972,0
+        -96.729304,17.051767,0
+        -96.729341,17.051609,0
+        -96.729255,17.051332,0
+        -96.729121,17.051163,0
+        -96.729212,17.050999,0
+        -96.729341,17.050732,0
+        -96.729373,17.050634,0
+      </coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Base Col. Jardín</name>
+      <Point><coordinates>-96.697930,17.093910,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Bugambilias</name>
+      <Point><coordinates>-96.700470,17.092810,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tacaná</name>
+      <Point><coordinates>-96.703440,17.093040,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cofre de Perote</name>
+      <Point><coordinates>-96.706360,17.094470,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Soconusco</name>
+      <description>Ubicación aproximada (tentativa)</description>
+      <Point><coordinates>-96.707746,17.093713,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mesa de Anáhuac</name>
+      <Point><coordinates>-96.708380,17.092580,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Popocatépetl</name>
+      <description>Ubicación aproximada (tentativa)</description>
+      <Point><coordinates>-96.709287,17.090734,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Campo de Béisbol Vinicio Castilla</name>
+      <Point><coordinates>-96.710420,17.088990,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Circuito P</name>
+      <Point><coordinates>-96.711400,17.087400,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mártires de Chicago</name>
+      <description>Ubicación aproximada (tentativa)</description>
+      <Point><coordinates>-96.713015,17.086753,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Av. Fuerza Aérea Mexicana</name>
+      <description>Ubicación aproximada (tentativa)</description>
+      <Point><coordinates>-96.719014,17.081171,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Heroica Escuela Naval Militar</name>
+      <Point><coordinates>-96.719260,17.079440,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Belisario Domínguez</name>
+      <Point><coordinates>-96.719670,17.076180,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Almendros</name>
+      <description>Ubicación aproximada (tentativa)</description>
+      <Point><coordinates>-96.719594,17.072101,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Heroico Colegio Militar</name>
+      <description>Ubicación aproximada (tentativa)</description>
+      <Point><coordinates>-96.715928,17.070644,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Preparatoria 2</name>
+      <Point><coordinates>-96.714040,17.068370,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ISSSTE</name>
+      <Point><coordinates>-96.714200,17.066460,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Panteón General</name>
+      <Point><coordinates>-96.714220,17.063230,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Paynani</name>
+      <Point><coordinates>-96.713550,17.060020,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Vicente Guerrero</name>
+      <Point><coordinates>-96.713000,17.057700,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Rayón</name>
+      <Point><coordinates>-96.713100,17.055900,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Emiliano Zapata</name>
+      <Point><coordinates>-96.715980,17.053500,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>González Ortega</name>
+      <Point><coordinates>-96.719450,17.052640,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Xicoténcatl</name>
+      <Point><coordinates>-96.722440,17.051910,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CFE Periférico</name>
+      <Point><coordinates>-96.724930,17.051280,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Miguel Cabrera</name>
+      <Point><coordinates>-96.727680,17.050640,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yuroo Parque del Amor Ladxidó'</name>
+      <Point><coordinates>-96.729250,17.050540,0</coordinates></Point>
+    </Placemark>
+  </Folder>
+</Document>
+</kml>
