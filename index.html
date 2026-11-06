@@ -110,6 +110,22 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
 .opt ol{margin:0;padding-left:20px;font-size:.9rem}
 .opt li{margin-bottom:5px}
 .opt .tag{font-weight:700;color:var(--wine)}
+.oh{display:flex;align-items:center;gap:8px;margin-bottom:4px}.oh .on{font-weight:700}
+.big{display:flex;align-items:baseline;gap:8px;font-size:1.35rem}.big .ar{color:var(--muted)}.big .dur{margin-left:auto;font-size:.95rem;font-weight:700;color:var(--wine)}
+.chips{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:6px 0}.chips .ar{color:var(--muted)}.chips .sm{margin-left:auto;font-size:.85rem;color:var(--muted)}
+.chip{display:inline-block;font-weight:800;font-size:.8rem;padding:2px 9px;border-radius:99px;letter-spacing:.2px}
+.rg{font-size:.85rem;color:var(--muted);margin:0 0 8px}
+.steps{margin:6px 0}.st{display:flex;gap:10px;padding:7px 0;font-size:.92rem}.st .ic{width:22px;text-align:center;flex:none}
+.st small{display:block;color:var(--muted);font-size:.8rem;margin-top:1px}
+.st.bus{border-left:4px solid var(--wine);padding-left:8px;margin:2px 0;background:var(--bg);border-radius:0 8px 8px 0}
+.st .dn{margin-top:6px;padding-top:6px;border-top:1px dashed var(--line)}
+.alr p{margin:4px 0;font-size:.85rem}.alr p.b{color:var(--no);font-weight:700}.alr p.w{color:#9a6a00}
+details.nt,details.how{font-size:.82rem;color:var(--muted);margin:4px 0}details.nt summary,details.how summary{cursor:pointer}
+.sum{font-size:.95rem;margin:2px 0 6px}
+.liveinfo{margin-top:8px;font-size:.85rem;color:var(--muted)}.liveinfo.warm{color:#9a6a00;font-weight:700}.liveinfo.hot{color:var(--no);font-weight:800;font-size:.95rem}
+.boardbtn,.alightbtn{display:inline-block;margin-right:6px;margin-top:8px;padding:7px 12px;font-size:.88rem;min-height:40px}
+.st.done{opacity:.6;font-size:.85rem;padding:4px 0}.st.live{background:var(--ok-bg)}
+
 .sr{display:flex;gap:6px;margin-bottom:6px}
 .sr .go{flex:1;text-align:left;font-weight:400}
 .sr button{padding:6px 10px;font-size:.85rem}
@@ -179,6 +195,7 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
       <button id="btnSaveTrip" type="button" class="alt">Guardar este viaje</button>
       <div id="trip" role="status"></div>
       <div id="savedTrips"></div>
+      <div id="calInfo"></div>
     </div>
     <div class="legend" id="legend"></div>
     <div id="results"></div>
@@ -472,6 +489,17 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     var w=tot/secs.length;
     return Math.max(2,Math.min(big?180:(pes?60:35),w));
   }
+  // Intervalo local entre salidas (min) y si cae en un hueco largo de servicio
+  function gapInfo(code,t){
+    var secs=HOR[code]; if(!secs) return {gap:null,big:false};
+    var tt=((t%1440)+1440)%1440, tot=0, big=false;
+    secs.forEach(function(a){
+      var n=a.length,i=0,g; while(i<n&&a[i]<=tt) i++;
+      if(i===0) g=a[1]-a[0]; else if(i>=n) g=a[n-1]-a[n-2]; else {g=a[i]-a[i-1]; if(g>45) big=true}
+      tot+=g;
+    });
+    return {gap:tot/secs.length,big:big};
+  }
   function lastDep(code){var secs=HOR[code]; if(!secs) return null; return Math.max.apply(null,secs.map(function(a){return a[a.length-1]}))}
   var FERIADOS=["01-01","02-02","03-16","05-01","09-16","11-16","12-25"]; // feriados federales 2026 (agrega los locales que quieras)
   function avisoFecha(day){
@@ -504,8 +532,24 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     }
     return out;
   }
+  // ---------- Calibración con tus tramos reales (solo en este dispositivo) ----------
+  var REAL=[], calF=1;
+  try{ REAL=JSON.parse(localStorage.getItem("binni_real")||"[]") }catch(e){ REAL=[] }
+  function median(a){var b=a.slice().sort(function(x,y){return x-y}),m=Math.floor(b.length/2);return b.length%2?b[m]:(b[m-1]+b[m])/2}
+  function recalcCal(){
+    var v=REAL.slice(-30).map(function(r){return r.cal}).filter(function(x){return isFinite(x)&&x>0});
+    calF=v.length>=3?Math.max(0.5,Math.min(1.6,median(v))):1;
+  }
+  recalcCal();
+  function saveReal(){ try{ localStorage.setItem("binni_real",JSON.stringify(REAL.slice(-200))) }catch(e){} recalcCal(); drawCal() }
+  function drawCal(){
+    var el=$("calInfo"); if(!el) return;
+    if(!REAL.length){el.innerHTML="";return}
+    el.innerHTML='<p class="meta">Tus tramos reales guardados: <b>'+REAL.length+'</b>'+(REAL.length>=3?' · velocidad ajustada ×'+calF.toFixed(2):' · con 3 o más se ajustan los tiempos')+' <button type="button" class="alt" id="calReset" style="padding:3px 9px;font-size:.8rem">Restablecer</button></p>';
+    $("calReset").addEventListener("click",function(){REAL=[];saveReal()});
+  }
   // ---------- Tráfico en vivo (TomTom) ----------
-  var TOMTOM_KEY="EpkDjZM38vMvjowAozoJlc9UBaeRaZ5F", BUS_BASE=BUS, TRAF_BASE=0.75, trafCache=null;
+  var TOMTOM_KEY="EpkDjZM38vMvjowAozoJlc9UBaeRaZ5F", curBusUsed=BUS, BUS_BASE=BUS, TRAF_BASE=0.75, trafCache=null;
   // Devuelve {f:factor, txt:texto} o null. Si algo falla, la app sigue con la velocidad fija.
   function trafico(a,b,done){
     if(!TOMTOM_KEY||TOMTOM_KEY.indexOf("PEGA")===0||!navigator.onLine) return done(null);
@@ -521,7 +565,8 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
           if(!got.length) return done(null);
           var ratio=got.reduce(function(x,y){return x+y},0)/got.length;
           var f=Math.max(0.6,Math.min(1.25,ratio/TRAF_BASE));
-          var txt=f<0.9?"Tráfico pesado ahora: tiempos aumentados":(f>1.1?"Tráfico ligero ahora: tiempos reducidos":"Tráfico normal ahora");
+          var pct=Math.round((1/f-1)*100);
+          var txt=f<0.9?"Tráfico pesado ahora (+"+pct+" % de tiempo en camión)":(f>1.1?"Tráfico ligero ahora ("+pct+" % de tiempo en camión)":"Tráfico normal ahora");
           var v={f:f,txt:txt}; trafCache={t:Date.now(),k:[a.lat,a.lng,b.lat,b.lng].join(),v:v}; done(v);
         });
     });
@@ -589,7 +634,8 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
       var nd=N[s.i];
       if(s.t==="start"||s.t==="xfer"){
         cur={route:nd.r.code,color:nd.r.color,from:nd,to:nd,stops:0,min:0,pts:[nd],walkBefore:s.m,
-             arrive:ctx.t0+D[s.i]-WT[s.i], board:ctx.t0+D[s.i], end:ctx.t0+D[s.i]};
+             arrive:ctx.t0+D[s.i]-WT[s.i], board:ctx.t0+D[s.i], end:ctx.t0+D[s.i], wait:WT[s.i]};
+        var gi=gapInfo(nd.r.code,ctx.t0+D[s.i]-WT[s.i]); cur.hw=gi.gap; cur.big=gi.big; cur.u=gi.gap===null?3:(gi.big?5:gi.gap/2);
         legs.push(cur);
       } else {
         var pv=N[seq[k-1].i]; cur.min+=(nd.s-pv.s)/BUS+DWELL; cur.stops++; cur.to=nd; cur.pts.push(nd); cur.end=ctx.t0+D[s.i];
@@ -639,22 +685,121 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
   function fmt(m){return Math.round(m/10)*10+" m"}
   var LV={ok:["ok","✅ Viable"],warn:["warn","⚠️ Con riesgo"],bad:["bad","❌ No viable a esa hora"]};
   function costTxt(n){var f=+$("fare").value; return f===0?"gratis":"~$"+(n*f)}
+  function textOn(hex){var h=(hex||"#888").replace("#","");if(h.length===3)h=h.replace(/./g,"$&$&");var r=parseInt(h.substr(0,2),16),g=parseInt(h.substr(2,2),16),b=parseInt(h.substr(4,2),16);return (0.299*r+0.587*g+0.114*b)>150?"#111":"#fff"}
+  function chip(code,color){return '<span class="chip" style="background:'+color+';color:'+textOn(color)+'">'+esc(code)+'</span>'}
   function card(r,i){
-    var a=r.a, leg=r.legs, lv=LV[a.lvl];
-    var h='<div class="opt'+(i===curSel?' sel':'')+'" data-i="'+i+'"><h3><span class="lvl '+lv[0]+'">'+lv[1]+'</span>Opción '+(i+1)+' · ~'+Math.round(r.min)+' min · '+costTxt(leg.length)+' · '+(leg.length-1)+' transbordo'+(leg.length-1===1?"":"s")+'</h3><ol>';
+    var a=r.a, leg=r.legs, lv=LV[a.lvl], last=leg[leg.length-1], nx=leg.length-1, K=(r.live===undefined?-1:r.live), KD=(r.alighted!==undefined?r.alighted:K-1);
+    var t0=curCtx.t0, arr=last.end+walkMin(r.endM), su=0; leg.forEach(function(l,j){if(j>=K) su+=l.u*l.u}); su=Math.sqrt(su);
+    var h='<div class="opt'+(i===curSel?' sel':'')+'" data-i="'+i+'">';
+    h+='<div class="oh"><span class="lvl '+lv[0]+'">'+lv[1]+'</span><span class="on">Opción '+(i+1)+'</span>'+(K>=0?'<span class="lvl ok">'+(r.alighted===K&&K===leg.length-1?'🏁 Llegaste':'🟢 En camino')+'</span>':'')+'</div>';
+    if(K>=0) h+='<div class="big"><b>Ahora '+fmtT(r.liveFrom)+'</b> <span class="ar">→</span> <b>'+fmtT(arr)+'</b><span class="dur">faltan ~'+Math.max(0,Math.round(arr-r.liveFrom))+' min</span></div>';
+    else h+='<div class="big"><b>'+fmtT(t0)+'</b> <span class="ar">→</span> <b>'+fmtT(arr)+'</b><span class="dur">'+Math.round(r.min)+' min</span></div>';
+    h+='<div class="chips">'+leg.map(function(l){return chip(l.route,l.color)}).join('<span class="ar">›</span>')+
+       '<span class="sm">'+costTxt(leg.length)+' · '+(nx===0?'sin transbordo':nx+' transbordo'+(nx===1?'':'s'))+'</span></div>';
+    if(su>=3) h+='<div class="rg">Llegada probable entre <b>'+fmtT(arr-su)+'</b> y <b>'+fmtT(arr+su)+'</b></div>';
+    h+='<div class="steps">';
     leg.forEach(function(l,k){
-      h+='<li>Camina ~'+fmt(l.walkBefore)+' a <strong>'+esc(l.from.name)+'</strong>'+(k?' (transbordo)':'')+' (llegas ~'+fmtT(l.arrive)+
-        '). Toma <strong>'+esc(l.route)+'</strong> ~'+fmtT(l.board)+' hasta <strong>'+esc(l.to.name)+'</strong> ('+l.stops+' paradas, bajas ~'+fmtT(l.end)+').</li>';
+      if(k<=KD){ h+='<div class="st done"><span class="ic">✔</span><div>Ya hiciste '+chip(l.route,l.color)+' hasta <b>'+esc(l.to.name)+'</b>'+(l.realMin?'<small>a bordo '+Math.round(l.realMin)+' min (estimado '+Math.round(l.min)+')</small>':'')+'</div></div>'; return }
+      if(k===K){
+        h+='<div class="st bus live" style="border-left-color:'+l.color+'"><span class="ic">🟢</span><div>'+chip(l.route,l.color)+' vas a bordo desde <b>'+fmtT(l.board)+'</b>'+
+           '<div class="dn">baja en <b>'+esc(l.to.name)+'</b> ~<b>'+fmtT(l.end)+'</b><small>'+l.stops+' paradas · ~'+Math.max(0,Math.round(l.end-r.liveFrom))+' min restantes</small></div>'+
+           '<div class="liveinfo" id="live-'+i+'"></div><button type="button" class="alt boardbtn" data-i="'+i+'" data-k="'+k+'">↻ Recalcular</button> <button type="button" class="alt alightbtn" data-i="'+i+'" data-k="'+k+'">🛑 Ya bajé</button></div></div>';
+        return;
+      }
+      var near0=l.walkBefore<25, wk=near0?(k?'Transbordo en la misma parada: ':'Estás en la parada '):((k?'Transbordo: camina ':'Camina ')+'~'+fmt(l.walkBefore)+' a ');
+      h+='<div class="st walk"><span class="ic">'+(k?'🔁':'🚶')+'</span><div>'+wk+'<b>'+esc(l.from.name)+'</b><small>'+(near0&&!k?'esperas desde ~':'llegas ~')+fmtT(l.arrive)+'</small></div></div>';
+      var wtxt=l.big?'pausa de servicio, esperas a la siguiente salida':('espera ~'+Math.round(l.wait)+' min'+(l.hw?' · pasa cada ~'+Math.round(l.hw)+' min':''));
+      h+='<div class="st bus" style="border-left-color:'+l.color+'"><span class="ic">🚌</span><div>'+chip(l.route,l.color)+' sube ~<b>'+fmtT(l.board)+'</b><small>'+wtxt+'</small>'+
+         '<div class="dn">baja en <b>'+esc(l.to.name)+'</b> ~<b>'+fmtT(l.end)+'</b><small>'+l.stops+' paradas · '+Math.round(l.min)+' min a bordo</small></div>'+
+         '<button type="button" class="alt boardbtn" data-i="'+i+'" data-k="'+k+'">✅ Ya me subí</button></div></div>';
     });
-    var last=leg[leg.length-1];
-    h+='<li>Camina ~'+fmt(r.endM)+' a tu destino (llegas ~'+fmtT(last.end+walkMin(r.endM))+').</li></ol>';
-    if(a.bad.length||a.warn.length||a.info.length){
-      h+='<ul class="al">'+a.bad.map(function(x){return '<li class="b">'+esc(x)+'</li>'}).join("")+
-        a.warn.map(function(x){return '<li class="w">'+esc(x)+'</li>'}).join("")+
-        a.info.map(function(x){return '<li class="i">'+esc(x)+'</li>'}).join("")+'</ul>';
+    h+='<div class="st walk"><span class="ic">🏁</span><div>'+(r.endM<25?'Llegas a tu destino':'Camina ~'+fmt(r.endM)+' a tu destino')+'<small>llegas ~'+fmtT(arr)+'</small></div></div></div>';
+    if(a.bad.length||a.warn.length){
+      h+='<div class="alr">'+a.bad.map(function(x){return '<p class="b">⛔ '+esc(x)+'</p>'}).join("")+a.warn.map(function(x){return '<p class="w">⚠️ '+esc(x)+'</p>'}).join("")+'</div>';
     }
+    if(a.info.length) h+='<details class="nt"><summary>ℹ️ Notas ('+a.info.length+')</summary>'+a.info.map(function(x){return '<p>'+esc(x)+'</p>'}).join("")+'</details>';
     return h+'<button type="button" class="alt pick" data-i="'+i+'">Ver en el mapa</button></div>';
   }
+  // Recalcula los tramos j0.. a partir del fin real/estimado del tramo anterior
+  function chain(r,j0,ratio){
+    for(var j=j0;j<r.legs.length;j++){
+      var l=r.legs[j], arrive=r.legs[j-1].end+walkMin(l.walkBefore), w=HOR[l.route]?waitFor(l.route,arrive,6,false):6, gi=gapInfo(l.route,arrive);
+      l.arrive=arrive; l.wait=w; l.board=arrive+w; l.hw=gi.gap; l.big=gi.big; l.u=gi.gap===null?3:(gi.big?5:gi.gap/2);
+      l.min=l.min*ratio; l.end=l.board+l.min;
+    }
+  }
+  function refreshCard(r,i){
+    var lastL=r.legs[r.legs.length-1]; r.min=lastL.end+walkMin(r.endM)-curCtx.t0; r.a=assess(r);
+    var el=document.querySelector('#trip .opt[data-i="'+i+'"]'); if(!el) return;
+    var tmp=document.createElement("div"); tmp.innerHTML=card(r,i); el.replaceWith(tmp.firstChild);
+  }
+  function nowMin(ref){var nd=new Date(), t=nd.getHours()*60+nd.getMinutes()+nd.getSeconds()/60; while(t<ref-720) t+=1440; return t}
+  // "Ya me subí": fija la hora real de abordaje del tramo k y recalcula lo que falta (espera en transbordos y tráfico)
+  function boardNow(i,k){
+    var r=curOpts[i]; if(!r) return;
+    var tnow=nowMin(r.legs[k].board), hoy=(curCtx.day===new Date().getDay());
+    function apply(tr){
+      var ratio=1;
+      if(tr){ var nb=BUS_BASE*calF*tr.f; ratio=curBusUsed/nb; curBusUsed=nb; BUS=nb; r.trafTxt=tr.txt }
+      var l=r.legs[k]; l.arrive=tnow; l.wait=0; l.board=tnow; l.u=0; l.realBoard=tnow; l.tf=curBusUsed/(BUS_BASE*calF);
+      l.min=l.min*ratio; l.end=l.board+l.min;
+      chain(r,k+1,ratio);
+      r.live=k; r.liveFrom=tnow; r.alighted=undefined;
+      refreshCard(r,i);
+      startTrack(i,k);
+    }
+    if(hoy) trafico(r.legs[k].from,curD,apply); else apply(null);
+  }
+  // "Ya bajé": guarda el tiempo real a bordo (calibra la velocidad) y recalcula el resto
+  function alightNow(i,k){
+    var r=curOpts[i]; if(!r) return; var l=r.legs[k];
+    var tnow=nowMin(l.board), real=tnow-(l.realBoard!==undefined?l.realBoard:l.board);
+    var ds=l.to.s-l.from.s, base=ds/BUS_BASE+DWELL*l.stops, tf=l.tf||1;
+    if(l.realBoard!==undefined && real>=2 && real<=150 && base>0){
+      REAL.push({route:l.route,from:l.from.name,to:l.to.name,stops:l.stops,real:Math.round(real*10)/10,est:Math.round(l.min*10)/10,
+                 cal:1/((real/base)*tf),day:curCtx.day,hour:Math.floor(tnow/60)%24,ts:Date.now()});
+      saveReal(); l.realMin=real;
+    }
+    l.end=tnow; r.alighted=k; r.live=k; r.liveFrom=tnow;
+    chain(r,k+1,1);
+    stopTrack(); refreshCard(r,i);
+  }
+  // ---------- Seguimiento: "ya casi bajas" (solo con la pantalla encendida y la página abierta) ----------
+  var track={wid:null,wl:null,i:-1,k:-1,near:false,now:false,ac:null};
+  function beep(n){
+    try{
+      var ac=track.ac; if(!ac) return; if(ac.state==="suspended") ac.resume();
+      for(var q=0;q<n;q++){var o=ac.createOscillator(),g=ac.createGain(); o.connect(g); g.connect(ac.destination); o.frequency.value=880; g.gain.value=.15;
+        o.start(ac.currentTime+q*.35); o.stop(ac.currentTime+q*.35+.2)}
+    }catch(e){}
+  }
+  function stopTrack(){
+    if(track.wid!==null){try{navigator.geolocation.clearWatch(track.wid)}catch(e){} track.wid=null}
+    if(track.wl){try{track.wl.release()}catch(e){} track.wl=null}
+    track.i=-1;
+  }
+  function startTrack(i,k){
+    stopTrack(); track.i=i; track.k=k; track.near=false; track.now=false;
+    var box=function(){return document.getElementById("live-"+i)};
+    if(!navigator.geolocation){ if(box()) box().textContent="Este dispositivo no permite aviso por ubicación."; return }
+    try{ if(!track.ac&&(window.AudioContext||window.webkitAudioContext)) track.ac=new (window.AudioContext||window.webkitAudioContext)() }catch(e){}
+    if(box()) box().textContent="Buscando tu ubicación… deja la pantalla encendida para recibir el aviso.";
+    try{ if(navigator.wakeLock) navigator.wakeLock.request("screen").then(function(w){track.wl=w}).catch(function(){}) }catch(e){}
+    track.wid=navigator.geolocation.watchPosition(function(pos){
+      var r=curOpts[track.i]; if(!r) return; var l=r.legs[track.k], el=box(); if(!l||!el) return;
+      var d=dist(pos.coords.latitude,pos.coords.longitude,l.to.lat,l.to.lng);
+      var txt="Estás a ~"+(d>=1000?(d/1000).toFixed(1)+" km":Math.round(d/10)*10+" m")+" de tu parada de bajada";
+      if(d<=250){ txt="🔔 ¡Bájate ya! Tu parada <b>"+esc(l.to.name)+"</b> está a ~"+Math.round(d/10)*10+" m"; if(!track.now){track.now=true; track.near=true; beep(3); try{navigator.vibrate&&navigator.vibrate([300,150,300,150,300])}catch(e){}} el.className="liveinfo hot" }
+      else if(d<=700){ txt="🔔 Ya casi bajas: <b>"+esc(l.to.name)+"</b> a ~"+Math.round(d/10)*10+" m"; if(!track.near){track.near=true; beep(2); try{navigator.vibrate&&navigator.vibrate([250,120,250])}catch(e){}} el.className="liveinfo warm" }
+      else el.className="liveinfo";
+      el.innerHTML=txt;
+    },function(err){
+      var el=box(); if(el) el.textContent=(err&&err.code===1)?"Permite la ubicación en Safari para recibir el aviso de bajada.":"No pude obtener tu ubicación.";
+    },{enableHighAccuracy:true,maximumAge:5000,timeout:30000});
+  }
+  document.addEventListener("visibilitychange",function(){
+    if(document.visibilityState==="visible"&&track.i>=0&&navigator.wakeLock&&!track.wl){try{navigator.wakeLock.request("screen").then(function(w){track.wl=w}).catch(function(){})}catch(e){}}
+  });
   function setLegend(codes){legend(routes.filter(function(r){return codes[r.code]}))}
   function showOnly(codes){
     routes.forEach(function(r){
@@ -720,6 +865,16 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
   setNow();
   $("btnNow").addEventListener("click",setNow);
   $("btnAll").addEventListener("click",showAll);
+  $("trip").addEventListener("click",function(e){
+    var bt=e.target.closest(".boardbtn"); if(!bt) return;
+    e.stopPropagation(); bt.disabled=true; bt.textContent="Recalculando…";
+    boardNow(+bt.getAttribute("data-i"),+bt.getAttribute("data-k"));
+  });
+  $("trip").addEventListener("click",function(e){
+    var bt=e.target.closest(".alightbtn"); if(!bt) return;
+    e.stopPropagation(); bt.disabled=true;
+    alightNow(+bt.getAttribute("data-i"),+bt.getAttribute("data-k"));
+  });
   $("btnRoute").addEventListener("click",function(){
     var L1=allPlaces(), a=L1.filter(function(p){return p.id===$("from").value})[0], b=L1.filter(function(p){return p.id===$("to").value})[0];
     if(!a||!b||a===b){$("trip").textContent="Elige dos lugares distintos. Agrega lugares con “Agregar lugar” o “Usar mi ubicación”.";return}
@@ -728,14 +883,15 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     $("trip").textContent="Calculando…";
     var nowD=new Date(), nowMin=nowD.getHours()*60+nowD.getMinutes(), esAhora=(ctx.day===nowD.getDay() && Math.abs(ctx.t0-nowMin)<=30);
     (esAhora?trafico:function(x,y,cb){cb(null)})(a,b,function(tr){
-    BUS=BUS_BASE*(tr?tr.f:1);
+    BUS=BUS_BASE*calF*(tr?tr.f:1); curBusUsed=BUS;
     setTimeout(function(){
       if(!G||G.count!==routes.length) buildGraph();
       var opts=candidates(a,b,ctx);
       if(!opts.length){$("trip").textContent="No encontré una combinación de rutas con paradas a "+MAXWALK+" m o menos de ambos puntos.";return}
       curOpts=opts; curO=a; curD=b; curSel=0;
-      var direct=dist(a.lat,a.lng,b.lat,b.lng), html='<p class="meta">Salida '+fmtT(ctx.t0)+(tr?' · '+tr.txt:'')+' · ordenadas por viabilidad (tiempo y riesgo de horario). Costo estimado: supone que cada abordaje se cobra; no está confirmado si el transbordo es gratis.</p>'+
-        (opts[0].a.lvl==="bad"?'<p class="meta"><strong>A esa hora ninguna combinación está en servicio.</strong> Prueba otra hora; RC-14 y RC-15 operan hasta las 03:00 viernes y sábado.</p>':'')+avisoFecha(ctx.day).map(function(m){return '<p class="meta"><strong>⚠️ '+m+'</strong></p>'}).join("")+opts.map(card).join("");
+      var direct=dist(a.lat,a.lng,b.lat,b.lng), html='<div class="sum"><b>Salida '+fmtT(ctx.t0)+'</b>'+(tr?' · '+esc(tr.txt):'')+'</div>'+
+        (opts[0].a.lvl==="bad"?'<p class="meta"><strong>A esa hora ninguna combinación está en servicio.</strong> Prueba otra hora; RC-14 y RC-15 operan hasta las 03:00 viernes y sábado.</p>':'')+avisoFecha(ctx.day).map(function(m){return '<p class="meta"><strong>⚠️ '+m+'</strong></p>'}).join("")+opts.map(card).join("")+
+        '<details class="how"><summary>ℹ️ Cómo se calcula</summary><p>Ordenadas por viabilidad (tiempo y riesgo de horario). La espera es la mitad del intervalo entre salidas publicadas; el rango de llegada refleja cuánto puede variar esa espera en cada camión. El tráfico solo ajusta el tiempo a bordo y solo si sales ahora. Costo estimado: supone que cada abordaje se cobra; no está confirmado si el transbordo es gratis.</p></details>';
       if(direct<=1000) html+='<p class="meta">Caminando directo: ~'+fmt(direct)+' en línea recta (~'+Math.round(walkMin(direct))+' min).</p>';
       $("trip").innerHTML=html;
       var codes={}; opts.forEach(function(r){r.legs.forEach(function(l){codes[l.route]=1})});
@@ -795,7 +951,7 @@ ul.al li.w{color:#9a6a00}ul.al li.b{color:var(--no);font-weight:700}ul.al li.i{c
     if(g.getAttribute("data-now")) setNow(); else {$("day").value=String(t.day); $("tm").value=t.tm}
     $("btnRoute").click();
   });
-  drawTrips();
+  drawTrips(); drawCal();
 
   $("trip").addEventListener("click",function(e){
     var p=e.target.closest(".pick"); if(!p) return;
