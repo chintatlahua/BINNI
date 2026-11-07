@@ -265,8 +265,12 @@
       <Point><coordinates>-96.749592,16.996978,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Base CRIT</name>
+      <name>CRIT</name>
       <Point><coordinates>-96.755658,16.997168,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Base CRIT</name>
+      <Point><coordinates>-96.756596,16.997046,0</coordinates></Point>
     </Placemark>
   </Folder>
   <Folder>
@@ -464,8 +468,8 @@
       <Point><coordinates>-96.730260,17.022399,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Porfirio Diaz</name>
-      <Point><coordinates>-96.730249,17.023116,0</coordinates></Point>
+      <name>Monumento a Juárez (Rotonda Xoxocotlán)</name>
+      <Point><coordinates>-96.729855,17.023677,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Moctezuma</name>
